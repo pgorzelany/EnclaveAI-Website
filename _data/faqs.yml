@@ -1,8 +1,35 @@
 - question: Is my data private?
-  answer: Yes, absolutely! All conversations happen locally on your device, and we don't collect or store any of your data. The AI model runs completely offline, which means your conversations, prompts, and any generated content never leave your computer and are not shared with any third parties.
+  answer: Yes, absolutely! All conversations happen locally on your device, and we don't collect or store any of your data. The AI model runs completely offline, which means your conversations, prompts, and any generated content never leave your device and are not shared with any third parties.
 
-- question: What are the system requirements?
-  answer: Enclave AI requires macOS 13.0 or later and works on both Intel and Apple Silicon Macs. For optimal performance, we recommend at least 16GB of RAM and 4GB of free disk space. The app is optimized to run efficiently on M1/M2 chips, taking advantage of their Neural Engine for faster processing.
+- question: What devices are supported?
+  answer: The app is available for both Mac and iPhone. You can download it from the Mac App Store for your MacBook or desktop Mac, and from the iOS App Store for your iPhone. Both versions offer the same core privacy-focused AI experience, though with platform-specific optimizations.
+
+- question: What's the difference between iOS and macOS versions?
+  answer: The macOS version allows you to choose and download from a selection of AI models of different sizes and capabilities. On iOS, the app comes with an optimized, embedded model specifically designed for mobile performance. This design choice ensures reliable performance on mobile devices while giving Mac users more flexibility with larger, more powerful models.
 
 - question: Do I need an internet connection?
-  answer: You only need internet for the initial download of the app and the AI model. After that, Enclave AI works completely offline! This means you can use the app anywhere, anytime - whether you're on a plane, in a remote location, or simply prefer to work without an internet connection for enhanced privacy.
+  answer: You only need internet for the initial download of the app and, on macOS, for downloading additional AI models. After that, everything works completely offline! This means you can use the app anywhere, anytime - whether you're on a plane, in a remote location, or simply prefer to work without an internet connection for enhanced privacy.
+
+- question: How does offline AI work? Do I need internet connection?
+  answer: No internet connection is required. The app downloads the AI model once during installation, and afterwards everything runs completely offline on your device. All processing, including voice recognition and text generation, happens locally without any data leaving your device.
+
+- question: What kind of AI models does the app support?
+  answer: On macOS, you can choose from various open-source large language models of different sizes and capabilities. Each model is optimized for desktop performance, allowing you to balance between processing power and features. The iOS version comes with a carefully optimized, embedded model designed specifically for mobile use, ensuring good performance without overwhelming your device.
+
+- question: Is my conversation data private?
+  answer: Absolutely. Unlike cloud-based AI services, all your conversations stay on your device. We don't collect any data, require no account registration, and have no servers to store your information. Your privacy is guaranteed by design, not just by policy.
+
+- question: How does voice chat work without internet?
+  answer: We use Apple's on-device speech recognition and synthesis capabilities, combined with local AI models. This means your voice never leaves your device - everything from speech-to-text, AI processing, and text-to-speech happens locally.
+
+- question: Can I use the AI features in my Shortcuts automation?
+  answer: Yes! The app fully integrates with Apple Shortcuts on both iOS and macOS, allowing you to include AI capabilities in your automation workflows. You can process text, generate content, and even use voice commands through Siri - all while maintaining offline privacy.
+
+- question: What's the difference between this and ChatGPT?
+  answer: While ChatGPT processes everything in the cloud, our app runs AI models directly on your device. This means you maintain complete privacy, have no recurring subscription costs, and can use the AI features even without internet access. On macOS, you can even choose larger models that offer capabilities closer to cloud-based services.
+
+- question: How does iMessage integration work?
+  answer: The app adds an iMessage extension that lets you interact with the AI directly in your Messages app. You can get help composing messages, summarizing conversations, or generating responses - all processed locally on your device without sending your messages to any external servers.
+
+- question: Will the app drain my battery?
+  answer: The app is optimized to use Apple's Neural Engine efficiently on both platforms. On iOS, we use a specially optimized model to ensure minimal battery impact. On macOS, you can choose between different model sizes to balance between performance and power consumption based on your needs.
