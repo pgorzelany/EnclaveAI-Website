@@ -1,12 +1,16 @@
-<nav class="fixed top-0 left-0 right-0 z-50 flex items-center justify-between p-6 bg-white border-b border-gray-100 transition-all duration-200">
-    <div class="flex items-center">
-        <a href="/" class="text-2xl font-bold">{{ site.title }}</a>
-    </div>
-    <div class="hidden md:flex space-x-4">
-        <a href="/" class="hover:underline">Home</a>
-        <a href="{{ site.baseurl }}/blog" class="hover:underline">Blog</a>
-        <a href="{{ site.baseurl }}/privacy-policy" class="hover:underline">Privacy Policy</a>
-        <a href="{{ site.baseurl }}/terms-and-conditions" class="hover:underline">Terms & Conditions</a>
+<nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100 transition-all duration-200">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex items-center justify-between p-6">
+            <div class="flex items-center">
+                <a href="/" class="text-2xl font-bold">{{ site.title }}</a>
+            </div>
+            <div class="hidden md:flex space-x-4">
+                <a href="/" class="hover:underline">Home</a>
+                <a href="{{ site.baseurl }}/blog" class="hover:underline">Blog</a>
+                <a href="{{ site.baseurl }}/privacy-policy" class="hover:underline">Privacy Policy</a>
+                <a href="{{ site.baseurl }}/terms-and-conditions" class="hover:underline">Terms & Conditions</a>
+            </div>
+        </div>
     </div>
 </nav>
 

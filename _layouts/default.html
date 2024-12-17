@@ -9,10 +9,14 @@
     {% seo %}
 </head>
 <body class="bg-white text-black">
-    {% include navigation.html %}
-    
-    {{ content }}
+    <div class="max-w-6xl mx-auto px-4">
+        {% include navigation.html %}
+        
+        <main>
+            {{ content }}
+        </main>
 
-    {% include footer.html %}
+        {% include footer.html %}
+    </div>
 </body>
 </html> 
