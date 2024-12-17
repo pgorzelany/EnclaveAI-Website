@@ -7,12 +7,14 @@ title: Blog
     <h1 class="text-4xl font-bold mb-8">Blog</h1>
     
     {% for post in site.posts %}
-    <article class="mb-8">
+    <article class="mb-12">
         <h2 class="text-2xl font-bold mb-2">
-            <a href="{{ post.url }}" class="hover:underline">{{ post.title }}</a>
+            <a href="{{ post.url }}" class="hover:opacity-75 transition-opacity">{{ post.title }}</a>
         </h2>
-        <p class="text-gray-600 mb-2">{{ post.date | date: "%B %d, %Y" }}</p>
-        <p class="text-gray-800">{{ post.excerpt }}</p>
+        <p class="text-gray-600 mb-4">{{ post.date | date: "%B %d, %Y" }}</p>
+        <div class="prose prose-lg max-w-none mb-4">
+            {{ post.excerpt }}
+        </div>
     </article>
     {% endfor %}
 </div> 
