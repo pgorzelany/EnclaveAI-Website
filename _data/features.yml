@@ -1,0 +1,29 @@
+- title: Natural Conversations
+  description: Experience fluid, context-aware discussions with our advanced AI. Perfect for brainstorming, problem-solving, or casual chat.
+  image: macos-chat.png
+  alt: Natural Conversations
+
+- title: Code Assistant
+  description: Get help with programming tasks, debug your code, or learn new concepts with our intelligent coding assistant.
+  image: macos-models.png
+  alt: Code Assistant
+
+- title: Offline Privacy
+  description: Your conversations never leave your device. Experience complete privacy with our offline-first approach.
+  image: ios-voice.png
+  alt: Offline Privacy
+
+- title: Offline Privacy
+  description: Your conversations never leave your device. Experience complete privacy with our offline-first approach.
+  image: ios-assistants.png
+  alt: Offline Privacy
+
+- title: Offline Privacy
+  description: Your conversations never leave your device. Experience complete privacy with our offline-first approach.
+  image: ios-shortcuts.png
+  alt: Offline Privacy
+
+- title: Offline Privacy
+  description: Your conversations never leave your device. Experience complete privacy with our offline-first approach.
+  image: ios-messages.png
+  alt: Offline Privacy

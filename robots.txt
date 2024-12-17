@@ -1,0 +1,6 @@
+# Welcome to Enclave AI
+User-agent: *
+Allow: /
+
+# Point to sitemap
+Sitemap: https://enclaveai.app/sitemap.xml 

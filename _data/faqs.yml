@@ -1,0 +1,8 @@
+- question: Is my data private?
+  answer: Yes, absolutely! All conversations happen locally on your device, and we don't collect or store any of your data. The AI model runs completely offline, which means your conversations, prompts, and any generated content never leave your computer and are not shared with any third parties.
+
+- question: What are the system requirements?
+  answer: Enclave AI requires macOS 13.0 or later and works on both Intel and Apple Silicon Macs. For optimal performance, we recommend at least 16GB of RAM and 4GB of free disk space. The app is optimized to run efficiently on M1/M2 chips, taking advantage of their Neural Engine for faster processing.
+
+- question: Do I need an internet connection?
+  answer: You only need internet for the initial download of the app and the AI model. After that, Enclave AI works completely offline! This means you can use the app anywhere, anytime - whether you're on a plane, in a remote location, or simply prefer to work without an internet connection for enhanced privacy.

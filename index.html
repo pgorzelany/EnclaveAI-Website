@@ -5,91 +5,75 @@ title: Home
 
 <!-- Hero Section -->
 <section class="flex flex-wrap items-center min-h-screen bg-white">
-    <div class="w-full md:w-1/2 flex justify-center md:justify-end mb-4 md:mb-0">
-        <div class="text-center md:text-left">
+    <div class="w-full md:w-1/2 flex justify-center mb-4 md:mb-0">
+        <div class="text-center">
             <h1 class="text-5xl font-bold mb-4">Welcome to your AI Enclave!</h1>
             <p class="text-xl mb-8 text-gray-600">Your personal AI assistant that runs completely offline – powerful conversations with total privacy</p>
-            <div>
+            <div class="flex justify-center">
                 <a href="https://apps.apple.com/pl/app/enclave-ai/id6476614556?mt=12">
-                    <img src="assets/images/mac-app-store-badge.svg" alt="Download on the Mac App Store" class="h-12 hover:opacity-80 transition duration-300">
+                    <img src="{{ site.baseurl }}/assets/images/mac-app-store-badge.svg" alt="Download on the Mac App Store" class="h-12 hover:opacity-80 transition duration-300">
                 </a>
             </div>
         </div>
     </div>
     <div class="w-full md:w-1/2 flex justify-center mb-4 md:mb-0">
-        <img src="assets/images/enclave-icon.png" alt="Secure AI" class="max-w-xs md:max-w-sm lg:max-w-md hover:transform hover:scale-105 transition duration-300 rounded-3xl">
+        <img src="{{ site.baseurl }}/assets/images/ios-chat.png" alt="Secure AI" class="max-w-xs md:max-w-sm lg:max-w-md hover:transform hover:scale-105 transition duration-300 rounded-3xl">
     </div>
 </section>
 
-<!-- Features Section -->
-<section class="py-16 bg-white">
-    <h2 class="text-3xl font-bold text-center mb-12">Why Choose Enclave AI?</h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="bg-white p-6 rounded-lg shadow-lg">
-            <div class="text-4xl mb-4">🔒</div>
-            <h3 class="text-xl font-bold mb-2">Private & Secure</h3>
-            <p class="text-gray-600">Your conversations stay private. No data collection, no cloud storage.</p>
-        </div>
-        <div class="bg-white p-6 rounded-lg shadow-lg">
-            <div class="text-4xl mb-4">⚡️</div>
-            <h3 class="text-xl font-bold mb-2">Lightning Fast</h3>
-            <p class="text-gray-600">Experience rapid responses with our optimized local AI processing.</p>
-        </div>
-        <div class="bg-white p-6 rounded-lg shadow-lg">
-            <div class="text-4xl mb-4">💻</div>
-            <h3 class="text-xl font-bold mb-2">Native macOS App</h3>
-            <p class="text-gray-600">Seamlessly integrated with your macOS environment for the best experience.</p>
-        </div>
-    </div>
-</section>
-
-<!-- How It Works Section -->
-<section class="py-16">
-    <h2 class="text-3xl font-bold text-center mb-12">How It Works</h2>
-    <div class="max-w-3xl mx-auto">
-        <div class="flex flex-col space-y-8">
-            <div class="flex items-center">
-                <div class="bg-black text-white rounded-full w-8 h-8 flex items-center justify-center mr-4">1</div>
-                <p class="text-lg">Download Enclave AI from the Mac App Store</p>
+<!-- Detailed Features Section -->
+<section id="features" class="py-24">
+    <div class="max-w-7xl mx-auto px-4">
+        {% for feature in site.data.features %}
+        <div class="flex flex-col {% assign mod = forloop.index | modulo: 2 %}{% if mod == 1 %}md:flex-row-reverse{% else %}md:flex-row{% endif %} items-center {% unless forloop.last %}mb-24{% endunless %}">
+            <div class="w-full md:w-1/2 {% if mod == 1 %}pl-0 md:pl-12{% else %}pr-0 md:pr-12{% endif %} mb-8 md:mb-0">
+                <h2 class="text-4xl font-bold mb-4 text-center">{{ feature.title }}</h2>
+                <p class="text-xl text-gray-600 mb-6 text-center">{{ feature.description }}</p>
             </div>
-            <div class="flex items-center">
-                <div class="bg-black text-white rounded-full w-8 h-8 flex items-center justify-center mr-4">2</div>
-                <p class="text-lg">Launch the app and wait for the initial setup</p>
-            </div>
-            <div class="flex items-center">
-                <div class="bg-black text-white rounded-full w-8 h-8 flex items-center justify-center mr-4">3</div>
-                <p class="text-lg">Start chatting with your private AI assistant</p>
+            <div class="w-full md:w-1/2 flex justify-center">
+                <img src="{{ site.baseurl }}/assets/images/{{ feature.image }}" 
+                     alt="{{ feature.alt }}" 
+                     class="w-64 rounded-3xl">
             </div>
         </div>
+        {% endfor %}
     </div>
 </section>
 
 <!-- CTA Section -->
-<section class="py-16 bg-black text-white">
+<section class="py-16 bg-black text-white rounded-3xl">
     <h2 class="text-3xl font-bold text-center mb-6">Ready to Start Your AI Journey?</h2>
     <p class="text-xl mb-8 text-center">Experience the power of private AI on your device today.</p>
     <div class="text-center">
         <a href="https://apps.apple.com/pl/app/enclave-ai/id6476614556?mt=12">
-            <img src="assets/images/mac-app-store-badge-white.svg" alt="Download on the Mac App Store" class="h-12 hover:opacity-80 transition duration-300 inline">
+            <img src="{{ site.baseurl }}/assets/images/mac-app-store-badge-white.svg" alt="Download on the Mac App Store" class="h-12 hover:opacity-80 transition duration-300 inline">
         </a>
     </div>
 </section>
 
 <!-- FAQ Section -->
-<section class="py-16 bg-white">
+<section id="faq" class="py-16 bg-white">
     <h2 class="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
-    <div class="max-w-3xl mx-auto space-y-6">
-        <div class="bg-white p-6 rounded-lg shadow">
-            <h3 class="text-xl font-bold mb-2">Is my data private?</h3>
-            <p class="text-gray-600">Yes, absolutely! All conversations happen locally on your device. We don't collect or store any of your data.</p>
+    <div class="space-y-4">
+        {% for faq in site.data.faqs %}
+        <div class="py-2">
+            <h3 class="text-xl font-bold mb-1">{{ faq.question }}</h3>
+            <p class="text-xl text-gray-600">{{ faq.answer }}</p>
         </div>
-        <div class="bg-white p-6 rounded-lg shadow">
-            <h3 class="text-xl font-bold mb-2">What are the system requirements?</h3>
-            <p class="text-gray-600">Enclave AI requires macOS 13.0 or later and works on both Intel and Apple Silicon Macs.</p>
-        </div>
-        <div class="bg-white p-6 rounded-lg shadow">
-            <h3 class="text-xl font-bold mb-2">Do I need an internet connection?</h3>
-            <p class="text-gray-600">Only for the initial download. After that, Enclave AI works completely offline!</p>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-16 bg-gray-50 rounded-3xl">
+    <div class="max-w-xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Get in Touch</h2>
+        <p class="text-xl text-gray-600 text-center mb-8">Have questions? We'd love to hear from you.</p>
+        <div class="text-center">
+            <a href="mailto:{{ site.email }}" 
+               class="inline-block bg-black text-white py-3 px-8 rounded-lg hover:bg-gray-800 transition duration-200 text-xl">
+                Contact Us
+            </a>
         </div>
     </div>
 </section>
