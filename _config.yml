@@ -13,9 +13,28 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# Social media and site info
+author: Enclave AI
+twitter:
+  username: enclave_ai
+  card: summary
+logo: /assets/images/enclave-icon.png
+favicon: /assets/images/favicon-32x32.png
+
 # Include _pages directory
 include:
   - _pages
+
+# Exclude development-specific files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - README.md
+  - package.json
+  - package-lock.json
 
 # Collections
 collections:
