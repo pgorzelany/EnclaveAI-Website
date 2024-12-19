@@ -21,9 +21,10 @@ twitter:
 logo: /assets/images/enclave-icon.png
 favicon: /assets/images/favicon-32x32.png
 
-# Include _pages directory
+# Include _pages directory and specific files
 include:
   - _pages
+  - google49916d0afa2ae3e9.html  # Add your verification file here
 
 # Exclude development-specific files
 exclude:
