@@ -1,19 +1,19 @@
 - title: Local Voice Chat
   description: Chat with AI using your voice, all processed locally on your device. No cloud services, no data collection, and no internet connection required. Your voice conversations remain completely private and secure, leveraging on-device speech recognition and synthesis.
-  image: ios-voice.png
+  image: ios-voice.webp
   alt: Voice Chat Privacy Feature
 
 - title: Custom AI Assistants
   description: Create personalized AI assistants tailored to your specific needs. Define custom system prompts, personalities, and expertise areas for different use cases. Save and switch between multiple assistants, each maintaining their own conversation history and context, all while keeping your data private.
-  image: ios-assistants.png
+  image: ios-assistants.webp
   alt: Custom AI Assistants Feature
 
 - title: Shortcuts & Siri Integration
   description: Seamlessly integrate powerful local AI into your automation workflows with Shortcuts support. Trigger AI tasks using Siri voice commands, process text, generate content, and analyze data - all offline. Create complex automations that respect your privacy while leveraging AI capabilities.
-  image: ios-shortcuts.png
+  image: ios-shortcuts.webp
   alt: Shortcuts and Siri Integration
 
 - title: iMessage Integration
   description: Access AI assistance directly within your iMessage conversations. Get help composing messages, summarizing discussions, and generating responses without leaving the Messages app. Enjoy AI-powered communication while maintaining end-to-end privacy with no data leaving your device.
-  image: ios-messages.png
+  image: ios-messages.webp
   alt: iMessage Integration Feature
