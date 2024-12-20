@@ -6,6 +6,9 @@ description: >-
 baseurl: ""
 url: "https://enclaveai.app"
 
+# App download link
+app_store_url: "https://apps.apple.com/app/apple-store/id6476614556?pt=117876009&ct=enclave-website&mt=8"
+
 # Build settings
 markdown: kramdown
 plugins:
