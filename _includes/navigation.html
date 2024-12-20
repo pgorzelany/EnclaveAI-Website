@@ -1,28 +1,3 @@
-<style>
-    .menu-open {
-        overflow: hidden;
-    }
-    
-    /* Hamburger Animation */
-    .open .hamburger-top {
-        transform: translateY(6px) rotate(45deg);
-        transform-origin: center;
-    }
-    
-    .open .hamburger-middle {
-        opacity: 0;
-    }
-    
-    .open .hamburger-bottom {
-        transform: translateY(-6px) rotate(-45deg);
-        transform-origin: center;
-    }
-
-    #mobile-menu {
-        padding-top: 2rem; /* Reduced from 5rem */
-    }
-</style>
-
 <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100 transition-all duration-200">
     <div class="max-w-6xl mx-auto px-4">
         <div class="flex items-center justify-between py-6">
@@ -54,11 +29,11 @@
             <!-- Mobile menu button -->
             <button class="md:hidden flex items-center px-3 py-2 z-50" onclick="toggleMobileMenu(this)">
                 <!-- Menu Icon -->
-                <svg class="menu-icon w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg class="menu-icon w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                 </svg>
                 <!-- Close Icon (hidden by default) -->
-                <svg class="close-icon w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg class="close-icon w-8 h-8 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
                 </svg>
             </button>
