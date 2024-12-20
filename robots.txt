@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Point to sitemap
-Sitemap: https://enclaveai.app/sitemap.xml 
+Sitemap: {{ site.url }}/sitemap.xml 

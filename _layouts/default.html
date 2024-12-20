@@ -1,23 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/images/favicon-32x32.png">
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
-    {% seo %}
-</head>
-<body class="bg-white text-black">
-    <div class="max-w-6xl mx-auto px-4">
-        {% include navigation.html %}
-        
-        <main class="mb-12">
-            {{ content }}
-        </main>
+    {% include head.html %}
+    <body class="bg-white text-black">
+        <div class="max-w-6xl mx-auto px-4">
+            {% include navigation.html %}
+            
+            <main class="mb-12">
+                {{ content }}
+            </main>
 
-        <hr class="border-t border-gray-200 my-8">
-        {% include footer.html %}
-    </div>
-</body>
+            <hr class="border-t border-gray-200 my-8">
+            {% include footer.html %}
+        </div>
+        <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    </body>
 </html> 
