@@ -57,3 +57,6 @@ defaults:
       type: "pages"
     values:
       layout: "default" 
+
+# Add this with your other URLs
+discord_url: "https://discord.gg/NX85YuXrf3" 
