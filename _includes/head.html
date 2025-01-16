@@ -30,4 +30,10 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/assets/images/favicon-32x32.png">
+
+    <!-- Add these meta tags after line 11 -->
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}local AI, offline AI, private AI assistant, AI privacy, LLM, language model, iOS AI, macOS AI{% endif %}">
+    <meta name="author" content="{{ site.author }}">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 </head> 
