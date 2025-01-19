@@ -33,3 +33,6 @@
 
 - question: Will the app drain my battery?
   answer: The app is optimized to use Apple's Neural Engine efficiently on both platforms. On iOS, we use a specially optimized model to ensure minimal battery impact. On macOS, you can choose between different model sizes to balance between performance and power consumption based on your needs.
+
+- question: How does the document context feature work?
+  answer: The document context feature allows you to add PDF and text files directly into your chat conversations. When you add documents, they are processed entirely on your device - no cloud processing or internet connection required. You can then ask questions about the documents, request summaries, or analyze multiple documents together. Like all features in Enclave, document processing is completely private and offline, ensuring your sensitive documents never leave your device.
