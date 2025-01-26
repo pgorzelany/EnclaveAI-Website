@@ -3,10 +3,20 @@
   image: ios-voice.webp
   alt: Voice Chat Privacy Feature
 
+- title: Top open source AI models
+  description: Access a curated selection of leading open-source AI models optimized for local use. Choose from various model sizes and capabilities to balance performance and resource usage. Download and run models directly on your device, ensuring complete privacy and offline functionality.
+  image: ios-model-manager.webp
+  alt: AI Model Selection Interface
+
 - title: Custom AI Assistants
   description: Create personalized AI assistants tailored to your specific needs. Define custom system prompts, personalities, and expertise areas for different use cases. Save and switch between multiple assistants, each maintaining their own conversation history and context, all while keeping your data private.
   image: ios-assistants.webp
   alt: Custom AI Assistants Feature
+
+- title: Chat with your documents
+  description: Upload and interact with your documents through natural conversation. Ask questions, get summaries, and extract insights from PDFs, text files, and more. All document processing happens locally on your device, ensuring your sensitive information stays private and secure.
+  image: ios-document-chat.webp
+  alt: Document Chat Interface
 
 - title: Shortcuts & Siri Integration
   description: Seamlessly integrate powerful local AI into your automation workflows with Shortcuts support. Trigger AI tasks using Siri voice commands, process text, generate content, and analyze data - all offline. Create complex automations that respect your privacy while leveraging AI capabilities.
