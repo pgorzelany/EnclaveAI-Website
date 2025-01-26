@@ -5,7 +5,7 @@
   answer: The app is available for both Mac and iPhone. You can download it from the Mac App Store for your MacBook or desktop Mac, and from the iOS App Store for your iPhone. Both versions offer the same core privacy-focused AI experience, though with platform-specific optimizations.
 
 - question: What's the difference between iOS and macOS versions?
-  answer: The macOS version allows you to choose and download from a selection of AI models of different sizes and capabilities. On iOS, the app comes with an optimized, embedded model specifically designed for mobile performance. This design choice ensures reliable performance on mobile devices while giving Mac users more flexibility with larger, more powerful models.
+  answer: Both versions now allow you to choose and download from a selection of AI models. The macOS version supports larger models due to greater computing power, while the iOS version offers models specifically optimized for mobile performance. Both versions maintain the same commitment to privacy and offline processing.
 
 - question: Do I need an internet connection?
   answer: You only need internet for the initial download of the app and, on macOS, for downloading additional AI models. After that, everything works completely offline! This means you can use the app anywhere, anytime - whether you're on a plane, in a remote location, or simply prefer to work without an internet connection for enhanced privacy.
@@ -14,7 +14,7 @@
   answer: No internet connection is required. The app downloads the AI model once during installation, and afterwards everything runs completely offline on your device. All processing, including voice recognition and text generation, happens locally without any data leaving your device.
 
 - question: What kind of AI models does the app support?
-  answer: On macOS, you can choose from various open-source large language models of different sizes and capabilities. Each model is optimized for desktop performance, allowing you to balance between processing power and features. The iOS version comes with a carefully optimized, embedded model designed specifically for mobile use, ensuring good performance without overwhelming your device.
+  answer: Both iOS and macOS versions support various open-source large language models. On iOS, you can choose from models like Llama, Qwen, SmolLM, and Gemma - all optimized for mobile performance. The macOS version additionally supports larger models that take advantage of desktop computing power. All models are carefully optimized for their respective platforms to ensure smooth performance.
 
 - question: Is my conversation data private?
   answer: Absolutely. Unlike cloud-based AI services, all your conversations stay on your device. We don't collect any data, require no account registration, and have no servers to store your information. Your privacy is guaranteed by design, not just by policy.
@@ -32,7 +32,7 @@
   answer: The app adds an iMessage extension that lets you interact with the AI directly in your Messages app. You can get help composing messages, summarizing conversations, or generating responses - all processed locally on your device without sending your messages to any external servers.
 
 - question: Will the app drain my battery?
-  answer: The app is optimized to use Apple's Neural Engine efficiently on both platforms. On iOS, we use a specially optimized model to ensure minimal battery impact. On macOS, you can choose between different model sizes to balance between performance and power consumption based on your needs.
+  answer: The app is optimized to use Apple's Neural Engine efficiently on both platforms. On iOS, you can choose from several specially optimized models that balance capabilities with power consumption. On macOS, you have additional options for larger models. All models are optimized to make efficient use of your device's resources.
 
 - question: How does the document context feature work?
   answer: The document context feature allows you to add PDF and text files directly into your chat conversations. When you add documents, they are processed entirely on your device - no cloud processing or internet connection required. You can then ask questions about the documents, request summaries, or analyze multiple documents together. Like all features in Enclave, document processing is completely private and offline, ensuring your sensitive documents never leave your device.
