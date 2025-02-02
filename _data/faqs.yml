@@ -36,3 +36,6 @@
 
 - question: How does the document context feature work?
   answer: The document context feature allows you to add PDF and text files directly into your chat conversations. When you add documents, they are processed entirely on your device - no cloud processing or internet connection required. You can then ask questions about the documents, request summaries, or analyze multiple documents together. Like all features in Enclave, document processing is completely private and offline, ensuring your sensitive documents never leave your device.
+
+- question: Can I run DeepSeek R1 on my device?
+  answer: Yes! Enclave supports running distilled versions of DeepSeek R1 on all supported devices - iOS, iPad and Mac. These optimized versions maintain impressive capabilities while being specifically tuned for each platform's performance characteristics.
