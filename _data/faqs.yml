@@ -39,3 +39,6 @@
 
 - question: Can I run DeepSeek R1 on my device?
   answer: Yes! Enclave supports running distilled versions of DeepSeek R1 on all supported devices - iOS, iPad and Mac. These optimized versions maintain impressive capabilities while being specifically tuned for each platform's performance characteristics.
+
+- question: What is the OpenRouter integration?
+  answer: The OpenRouter integration gives you the flexibility to choose between local AI models and cloud-based models. While Enclave remains primarily focused on private, local AI processing, the OpenRouter integration allows you to optionally access powerful cloud-based models when you need additional capabilities. You can seamlessly switch between local and cloud processing through the same interface, with clear indications of when data leaves your device. Local processing remains the default, and cloud processing is completely optional, putting you in full control of your privacy and data.
