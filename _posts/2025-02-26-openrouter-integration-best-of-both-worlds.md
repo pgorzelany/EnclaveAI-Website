@@ -58,6 +58,18 @@ Use local models for initial processing of sensitive information, only sending n
 **Adaptive Performance Based on Device Capabilities**
 Automatically leverage local models on powerful devices and fall back to cloud options on devices with limited resources.
 
+### Important Privacy Notice
+
+With the addition of cloud model capabilities, we've updated our Privacy Policy and Terms of Service to reflect these changes. Key points to be aware of:
+
+- When using cloud models, your conversation data is sent to OpenRouter and the respective model providers
+- Cloud model usage is always clearly indicated in the app interface
+- Your data handling when using cloud models is subject to OpenRouter's privacy policy and the policies of the model providers
+- We've added new sections to our Privacy Policy and Terms of Service specifically addressing third-party services
+- You can review our updated policies on our website, including archives of previous versions
+
+We encourage all users to review these updated policies to understand the privacy implications of using cloud models versus local models.
+
 ### The Future of AI is Flexible
 
 This integration represents our vision for the future of AI: giving users the power to choose the right tool for each specific task. We believe that the best AI experience combines the privacy and reliability of local processing with the option to access cutting-edge cloud capabilities when needed.
