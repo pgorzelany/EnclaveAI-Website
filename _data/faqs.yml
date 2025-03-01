@@ -17,7 +17,10 @@
   answer: Both iOS and macOS versions support various open-source large language models. On iOS, you can choose from models like Llama, Qwen, SmolLM, and Gemma - all optimized for mobile performance. The macOS version additionally supports larger models that take advantage of desktop computing power. All models are carefully optimized for their respective platforms to ensure smooth performance.
 
 - question: Is my conversation data private?
-  answer: Absolutely. Unlike cloud-based AI services, all your conversations stay on your device. We don't collect any data, require no account registration, and have no servers to store your information. Your privacy is guaranteed by design, not just by policy.
+  answer: Absolutely. Unlike cloud-based AI services, all your conversations stay on your device. Your conversation history is stored locally and encrypted, giving you complete control over your data. We don't collect any data, require no account registration, and have no servers to store your information. Your privacy is guaranteed by design, not just by policy.
+
+- question: How does the conversation history feature work?
+  answer: Enclave AI now automatically saves your conversations locally on your device, allowing you to access, review, and continue previous chats. Your conversation history is stored securely using encrypted local storage and never leaves your device. You have complete control over your data, with options to delete individual conversations, clear all history, export conversations, and even set automatic deletion periods. The feature is designed to enhance productivity while maintaining our strict privacy standards.
 
 - question: How does voice chat work without internet?
   answer: We use Apple's on-device speech recognition and synthesis capabilities, combined with local AI models. This means your voice never leaves your device - everything from speech-to-text, AI processing, and text-to-speech happens locally.
