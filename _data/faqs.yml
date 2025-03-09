@@ -26,7 +26,7 @@
   answer: We use Apple's on-device speech recognition and synthesis capabilities, combined with local AI models. This means your voice never leaves your device - everything from speech-to-text, AI processing, and text-to-speech happens locally.
 
 - question: Can I use the AI features in my Shortcuts automation?
-  answer: Yes! The app fully integrates with Apple Shortcuts on both iOS and macOS, allowing you to include AI capabilities in your automation workflows. You can process text, generate content, and even use voice commands through Siri - all while maintaining offline privacy.
+  answer: Yes! The app fully integrates with Apple Shortcuts on both iOS and macOS, allowing you to include AI capabilities in your automation workflows. You can now select specific AI models for each shortcut - choosing between local models for complete privacy or cloud models for enhanced capabilities. This gives you unprecedented control over your AI-powered automations, letting you create sophisticated workflows for tasks like email processing, document analysis, content creation, and more - all while maintaining the appropriate level of privacy for each task.
 
 - question: What's the difference between this and ChatGPT?
   answer: While ChatGPT processes everything in the cloud, our app runs AI models directly on your device. This means you maintain complete privacy, have no recurring subscription costs, and can use the AI features even without internet access. On macOS, you can even choose larger models that offer capabilities closer to cloud-based services.
@@ -45,3 +45,6 @@
 
 - question: What is the OpenRouter integration?
   answer: The OpenRouter integration gives you the flexibility to choose between local AI models and cloud-based models. While Enclave remains primarily focused on private, local AI processing, the OpenRouter integration allows you to optionally access powerful cloud-based models when you need additional capabilities. You can seamlessly switch between local and cloud processing through the same interface, with clear indications of when data leaves your device. Local processing remains the default, and cloud processing is completely optional, putting you in full control of your privacy and data.
+
+- question: How does model selection in Shortcuts work?
+  answer: Our enhanced Shortcuts integration now allows you to specify exactly which AI model to use for each automation. When creating a shortcut with Enclave AI actions, you'll see a "Model" parameter where you can select from available local models (for complete privacy) or cloud models (for enhanced capabilities). This gives you the flexibility to create different shortcuts for different use cases, each with the ideal model for the task. The feature is available on both iOS and macOS, allowing you to build consistent automation experiences across all your Apple devices.
