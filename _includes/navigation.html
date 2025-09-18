@@ -1,4 +1,5 @@
 <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100 transition-all duration-200">
+    {% include announcement.html %}
     <div class="max-w-6xl mx-auto px-4">
         <div class="flex items-center justify-between py-6">
             <div class="flex items-center">
@@ -40,7 +41,7 @@
         </div>
 
         <!-- Mobile menu with slide and fade animations -->
-        <div id="mobile-menu" class="hidden md:hidden fixed inset-x-0 top-[80px] bottom-0 bg-white z-40 transform transition-all duration-300 ease-out opacity-0">
+        <div id="mobile-menu" class="hidden md:hidden fixed inset-x-0 {% if site.announcement and site.announcement.enabled %}top-[96px]{% else %}top-[80px]{% endif %} bottom-0 bg-white z-40 transform transition-all duration-300 ease-out opacity-0">
             <div class="flex flex-col space-y-8 items-center pt-12">
                 <a href="/" class="text-2xl hover:underline transform transition-transform hover:translate-x-2">Home</a>
                 <a href="{{ site.baseurl }}/blog" class="text-2xl hover:underline transform transition-transform hover:translate-x-2">Blog</a>
@@ -57,8 +58,8 @@
     </div>
 </nav>
 
-<!-- Spacer to prevent content from hiding under fixed nav -->
-<div class="h-20"></div>
+<!-- Spacer to prevent content from hiding under fixed nav (accounts for announcement when enabled) -->
+<div class="{% if site.announcement and site.announcement.enabled %}h-24{% else %}h-20{% endif %}"></div>
 
 <!-- Updated JavaScript with animations -->
 <script>

@@ -60,3 +60,8 @@ defaults:
 
 # Add this with your other URLs
 discord_url: "https://discord.gg/NX85YuXrf3" 
+
+# Site-wide announcement banner
+announcement:
+  enabled: true
+  text: "Enclave is temporarily unavailable on the App Store. It should be back within a few days."
