@@ -7,15 +7,47 @@ description: "Discover offline language models, private AI chat, and secure mach
 <div class="py-8">
     <h1 class="text-4xl font-bold mb-8">Blog</h1>
     
-    {% for post in site.posts %}
+    {% assign posts_to_show = paginator.posts | default: site.posts %}
+    {% for post in posts_to_show %}
     <article class="mb-12">
         <h2 class="text-2xl font-bold mb-2">
             <a href="{{ post.url }}" class="hover:opacity-75 transition-opacity">{{ post.title }}</a>
         </h2>
-        <p class="text-gray-600 mb-4">{{ post.date | date: "%B %d, %Y" }}</p>
+        {% assign words = post.content | number_of_words %}
+        {% assign minutes = words | divided_by: 200 %}
+        {% if minutes < 1 %}{% assign minutes = 1 %}{% endif %}
+        <p class="text-gray-600 mb-4">{{ post.date | date: "%B %d, %Y" }} · {{ minutes }} min read</p>
         <div class="prose prose-lg max-w-none mb-4">
             {{ post.excerpt }}
         </div>
     </article>
     {% endfor %}
+    
+    {% if paginator.total_pages > 1 %}
+    <nav class="flex justify-center items-center space-x-4 mt-12" aria-label="Blog pagination">
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | relative_url }}" class="px-4 py-2 bg-black text-white rounded-lg hover:bg-gray-800 transition duration-200">
+            &larr; Newer
+        </a>
+        {% else %}
+        <span class="px-4 py-2 bg-gray-200 text-gray-400 rounded-lg cursor-not-allowed">
+            &larr; Newer
+        </span>
+        {% endif %}
+        
+        <span class="text-gray-600">
+            Page {{ paginator.page }} of {{ paginator.total_pages }}
+        </span>
+        
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | relative_url }}" class="px-4 py-2 bg-black text-white rounded-lg hover:bg-gray-800 transition duration-200">
+            Older &rarr;
+        </a>
+        {% else %}
+        <span class="px-4 py-2 bg-gray-200 text-gray-400 rounded-lg cursor-not-allowed">
+            Older &rarr;
+        </span>
+        {% endif %}
+    </nav>
+    {% endif %}
 </div> 

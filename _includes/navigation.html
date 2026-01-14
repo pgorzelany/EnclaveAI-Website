@@ -28,7 +28,7 @@
             </div>
 
             <!-- Mobile menu button -->
-            <button class="md:hidden flex items-center px-3 py-2 z-50" onclick="toggleMobileMenu(this)">
+            <button id="mobile-menu-toggle" type="button" class="md:hidden flex items-center px-3 py-2 z-50" aria-label="Toggle menu" aria-controls="mobile-menu" aria-expanded="false" onclick="toggleMobileMenu(this)">
                 <!-- Menu Icon -->
                 <svg class="menu-icon w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
@@ -74,6 +74,7 @@
             mobileMenu.classList.add('opacity-0');
             menuIcon.classList.remove('hidden');
             closeIcon.classList.add('hidden');
+            button.setAttribute('aria-expanded', 'false');
             setTimeout(() => {
                 mobileMenu.classList.add('hidden');
             }, 200);
@@ -82,6 +83,7 @@
             mobileMenu.classList.remove('hidden');
             menuIcon.classList.add('hidden');
             closeIcon.classList.remove('hidden');
+            button.setAttribute('aria-expanded', 'true');
             setTimeout(() => {
                 mobileMenu.classList.remove('opacity-0');
             }, 10);
@@ -91,8 +93,10 @@
     // Close mobile menu when clicking on a link
     document.querySelectorAll('#mobile-menu a').forEach(link => {
         link.addEventListener('click', () => {
-            const button = document.querySelector('button');
-            toggleMobileMenu(button);
+            const button = document.getElementById('mobile-menu-toggle');
+            if (button) {
+                toggleMobileMenu(button);
+            }
         });
     });
 </script> 

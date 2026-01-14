@@ -20,12 +20,12 @@
     {% endif %}
     
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
-    <meta property="twitter:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta property="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     {% if page.image %}
-    <meta property="twitter:image" content="{{ site.url }}{{ page.image }}">
+    <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
     {% endif %}
 
     <!-- Favicon -->
@@ -36,4 +36,5 @@
     <meta name="author" content="{{ site.author }}">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    {% feed_meta %}
 </head> 
