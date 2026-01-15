@@ -2,7 +2,57 @@
 layout: default
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ page.title | escape }}",
+  "description": "{{ page.description | default: page.excerpt | strip_html | truncate: 160 | escape }}",
+  "image": "{{ page.image | default: '/assets/images/og-default.webp' | prepend: site.url }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "Organization",
+    "name": "Enclave AI",
+    "url": "{{ site.url }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Enclave AI",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/assets/images/enclave-icon.webp"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ page.url }}"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/"},
+    {"@type": "ListItem", "position": 2, "name": "Blog", "item": "{{ site.url }}/blog"},
+    {"@type": "ListItem", "position": 3, "name": "{{ page.title | escape }}"}
+  ]
+}
+</script>
+
 <article class="py-8">
+    <nav aria-label="Breadcrumb">
+        <ol class="flex text-sm text-gray-500 mb-4">
+            <li><a href="/" class="hover:underline">Home</a></li>
+            <li class="mx-2">/</li>
+            <li><a href="/blog" class="hover:underline">Blog</a></li>
+            <li class="mx-2">/</li>
+            <li class="text-gray-900">{{ page.title }}</li>
+        </ol>
+    </nav>
     <h1 class="text-4xl font-bold mb-4">{{ page.title }}</h1>
     {% assign words = content | number_of_words %}
     {% assign minutes = words | divided_by: 200 %}

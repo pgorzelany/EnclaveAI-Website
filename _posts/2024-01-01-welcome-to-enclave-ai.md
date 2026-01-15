@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Welcome to Enclave AI"
+description: "Introducing Enclave AI - a privacy-focused AI assistant that runs completely offline on your device. Experience powerful AI tools with zero data tracking."
+keywords: "Enclave AI, private AI, local AI, offline AI, AI assistant, private computing, data privacy"
 date: 2024-02-01
 ---
 In today’s digital world, privacy is more important than ever. Every click, every conversation, and every interaction online leaves a trace—but what if you didn’t have to sacrifice your privacy to use cutting-edge technology?  

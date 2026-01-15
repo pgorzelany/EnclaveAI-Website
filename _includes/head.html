@@ -2,6 +2,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
+    <!-- Resource hints for external resources -->
+    <link rel="preconnect" href="https://cdn.tailwindcss.com">
+    <link rel="dns-prefetch" href="https://cdn.tailwindcss.com">
+    
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
     
@@ -17,6 +21,8 @@
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     {% if page.image %}
     <meta property="og:image" content="{{ site.url }}{{ page.image }}">
+    {% else %}
+    <meta property="og:image" content="{{ site.url }}/assets/images/og-default.webp">
     {% endif %}
     
     <!-- Twitter -->
@@ -26,7 +32,11 @@
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     {% if page.image %}
     <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+    {% else %}
+    <meta name="twitter:image" content="{{ site.url }}/assets/images/og-default.webp">
     {% endif %}
+    <meta name="twitter:site" content="@{{ site.twitter.username }}">
+    <meta name="twitter:creator" content="@{{ site.twitter.username }}">
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/assets/images/favicon-32x32.png">
