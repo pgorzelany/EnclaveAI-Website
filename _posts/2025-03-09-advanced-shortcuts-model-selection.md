@@ -8,7 +8,7 @@ date: 2025-03-09
 
 We're excited to announce a major enhancement to Enclave AI's integration with Apple Shortcuts: the ability to select specific AI models for your automations. This powerful update, now available on both iOS and macOS, gives you unprecedented control over your AI-powered workflows.
 
-### The Power of Choice in Your Automations
+## The Power of Choice in Your Automations
 
 Until now, Enclave AI's Shortcuts integration has allowed you to leverage AI in your automations using the default model. With our latest update, you can now:
 
@@ -19,9 +19,9 @@ Until now, Enclave AI's Shortcuts integration has allowed you to leverage AI in 
 
 This flexibility transforms how you can integrate AI into your daily workflows, allowing you to build more sophisticated and purpose-driven automations.
 
-### Local and Cloud Models at Your Command
+## Local and Cloud Models at Your Command
 
-The new model selection feature works seamlessly with our recent OpenRouter integration, giving you access to both local and cloud models in your shortcuts:
+The new model selection feature works seamlessly with our recent [OpenRouter integration](/blog/2025/02/26/openrouter-integration-best-of-both-worlds/), giving you access to both local and cloud models in your shortcuts:
 
 **Local Models for Privacy-Critical Tasks**
 - Process sensitive information with complete privacy
@@ -35,7 +35,7 @@ The new model selection feature works seamlessly with our recent OpenRouter inte
 - Utilize the latest frontier models for cutting-edge capabilities
 - Scale up processing power for demanding workflows
 
-### Cross-Platform Consistency
+## Cross-Platform Consistency
 
 With the expansion of enhanced shortcuts to macOS, you can now create consistent automation experiences across all your Apple devices:
 
@@ -44,9 +44,9 @@ With the expansion of enhanced shortcuts to macOS, you can now create consistent
 - Leverage the same model selection capabilities regardless of platform
 - Create device-specific optimizations while maintaining the same core functionality
 
-### Real-World Automation Scenarios
+## Real-World Automation Scenarios
 
-The combination of model selection and cross-platform shortcuts opens up powerful new possibilities:
+The combination of model selection and cross-platform shortcuts opens up powerful new possibilities. If you're new to AI automation, start with our [guide to maximizing productivity with AI shortcuts](/blog/2024/03/01/maximizing-productivity-with-ai-shortcuts/).
 
 **Intelligent Email Processing**
 Create a shortcut that uses a privacy-focused local model to categorize and summarize incoming emails, then optionally processes important messages with a more powerful cloud model for detailed analysis and response drafting.
@@ -63,7 +63,7 @@ Create a research workflow that begins with local models for initial information
 **Privacy-Conscious Data Processing**
 Build a shortcut that automatically anonymizes sensitive data using a local model before sending the sanitized information to a cloud model for advanced processing, ensuring privacy while maximizing capabilities.
 
-### Setting Up Model Selection in Your Shortcuts
+## Setting Up Model Selection in Your Shortcuts
 
 Adding model selection to your shortcuts is straightforward:
 
@@ -74,13 +74,13 @@ Adding model selection to your shortcuts is straightforward:
 
 For existing shortcuts, you can easily update them to take advantage of model selection by editing the shortcut and selecting your preferred model.
 
-### The Future of AI Automation
+## The Future of AI Automation
 
 This update represents a significant step forward in our vision for AI-powered automation—one where you have complete control over both capabilities and privacy. By combining the flexibility of model selection with the power of Apple Shortcuts, we're creating an environment where AI truly adapts to your specific needs and preferences.
 
-In the coming months, we'll be expanding these capabilities further with additional shortcut actions, more granular control options, and enhanced integration with other Apple ecosystem features.
+In the coming months, we'll be expanding these capabilities further with additional shortcut actions, more granular control options, and enhanced integration with other Apple ecosystem features. For more ideas on what's possible, explore our [creative ways to use offline AI](/blog/2024/08/15/creative-ways-to-use-offline-ai/).
 
-### Try It Today
+## Try It Today
 
 The enhanced shortcuts functionality with model selection is available now in the latest update of Enclave AI for both iOS and macOS. Simply update your app to start building more powerful, flexible automations with your choice of AI models.
 

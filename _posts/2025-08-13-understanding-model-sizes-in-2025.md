@@ -65,7 +65,7 @@ Approx storage (gguf, typical): 7B Q4 ≈ 4–5GB, 14B Q4 ≈ 8–10GB, 32B Q4 �
 - **8‑bit/16‑bit**: Highest quality; use when you have memory to spare
 - **Ternary / 1.58‑bit**: Emerging for select models; great footprint, still maturing
 
-Tip: For coding/reasoning, try Q5 if your device allows; for everyday chat, Q4 feels great and stays cool.
+Tip: For coding/reasoning, try Q5 if your device allows; for everyday chat, Q4 feels great and stays cool. For step-by-step instructions on quantizing models yourself, see our [practical quantization guide for iPhone and Mac](/blog/2025/11/12/practical-quantization-guide-iphone-mac-gguf/).
 
 ## Model examples by size (2025)
 
@@ -106,12 +106,12 @@ Tip: For coding/reasoning, try Q5 if your device allows; for everyday chat, Q4 f
 
 Enclave AI is optimized for on‑device privacy and performance on iPhone and Mac. You can select from efficient small models for mobile and scale up to 32B/70B on high‑memory Macs—all without sending your data to the cloud.
 
-- Download Enclave AI on the App Store and try: Gemma 3n on iPhone; Qwen 3 7B or a distilled R1 14B/32B on Mac for coding/reasoning.
+- Download Enclave AI on the App Store and try: Gemma 3n on iPhone; Qwen 3 7B or a distilled R1 14B/32B on Mac for coding/reasoning. New to local AI? Start with our [getting started with local LLMs](/blog/2024/04/04/getting-started-with-local-llms/) guide.
 - Prefer hybrid? Enclave also supports connecting to cloud endpoints when you need them, while keeping everyday work local.
 
 ### Why this matters
 
-The 2025 bottom line: **model choice is about fit, not size**. With MoE, better data, and modern quantization, smaller footprints deliver outsized capability—especially on Apple Silicon. Start small, stay private, and only scale up when your tasks demand it.
+The 2025 bottom line: **model choice is about fit, not size**. With MoE, better data, and modern quantization, smaller footprints deliver outsized capability—especially on Apple Silicon. Start small, stay private, and only scale up when your tasks demand it. For specific model recommendations, check out our [five best local LLMs for iPhone and Mac](/blog/2025/07/06/five-best-local-llms-iphone-mac-july-2025/).
 
 —
 

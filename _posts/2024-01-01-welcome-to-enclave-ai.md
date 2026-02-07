@@ -11,7 +11,7 @@ That’s where **Enclave AI** comes in.
 
 Enclave AI brings the power of advanced AI models directly to your device. With Enclave, your data never leaves your hands. Everything runs locally, with no internet connection required and zero data tracking. Your conversations, creative projects, and problem-solving sessions stay private, always.  
 
-### Why Choose Enclave AI?  
+## Why Choose Enclave AI?  
 - **Ultimate Privacy:** Your data belongs to you. No servers, no tracking, no compromises.  
 - **Powerful AI Tools:** From generating ideas to solving complex problems, Enclave is your personal AI assistant.  
 - **Offline Capability:** No Wi-Fi? No problem. Enclave works wherever you are.  
@@ -19,5 +19,7 @@ Enclave AI brings the power of advanced AI models directly to your device. With 
 Whether you’re crafting stories, brainstorming solutions, or exploring new ideas, Enclave gives you the freedom to imagine without limits—all in a private, secure environment.  
 
 Welcome to a world where your creativity is boundless, and your privacy is respected.  
+
+New to local AI? Check out our [beginner's guide to getting started with local LLMs](/blog/2024/04/04/getting-started-with-local-llms/). You can also learn more about [why privacy matters in the age of AI](/blog/2024/06/08/privacy-in-ai-why-local-matters/).
 
 **Your data. Your device. Your Enclave.**  

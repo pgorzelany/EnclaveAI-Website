@@ -8,7 +8,7 @@ date: 2025-07-06
 
 The landscape of local AI has transformed dramatically in 2025, with powerful language models now running seamlessly on iPhones and Macs. From Apple's latest neural engines to the unified memory architecture of Apple Silicon, our devices have become capable AI powerhouses that rival cloud-based solutions while keeping your data completely private.
 
-As we reach the middle of 2025, we're seeing a perfect storm of factors making local AI more compelling than ever: models are getting smaller and more efficient, Apple's hardware is more capable, and privacy concerns continue to drive demand for on-device processing.
+As we reach the middle of 2025, we're seeing a perfect storm of factors making local AI more compelling than ever: models are getting smaller and more efficient, Apple's hardware is more capable, and privacy concerns continue to drive demand for on-device processing. If you're new to model sizing, our [guide to understanding model sizes in 2025](/blog/2025/08/13/understanding-model-sizes-in-2025/) covers everything you need to know.
 
 After extensive research across app stores, model repositories, and performance benchmarks, here are the **5 best local LLMs** you can run on your iPhone and Mac right now.
 
@@ -40,7 +40,7 @@ Google's [Gemma 3n](https://inventaai.com/gemma-3n-google-on-device-multimodal-a
 - **Content creation**: Generate and edit content without cloud dependency
 - **Meeting transcription**: Convert speech to text with speaker identification
 
-Gemma 3n supports direct integration through Hugging Face and MLX frameworks, making it accessible through various local AI applications.
+Gemma 3n supports direct integration through Hugging Face and MLX frameworks, making it accessible through various local AI applications. For a closer look at this model's integration with Enclave AI, see our dedicated [Gemma 3n on iOS and macOS](/blog/2025/06/29/gemma-3n-on-ios-and-macos/) article.
 
 ---
 
@@ -62,7 +62,7 @@ The distilled versions of [DeepSeek R1](https://obrienlabs.medium.com/running-re
 - **Business analysis**: Multi-step logical reasoning for strategic decisions
 - **Educational assistance**: Step-by-step problem solving explanations
 
-Available through Ollama and other local inference engines, DeepSeek R1 has become the go-to choice for users who need powerful reasoning capabilities locally.
+Available through Ollama and other local inference engines, DeepSeek R1 has become the go-to choice for users who need powerful reasoning capabilities locally. Learn more about the distilled variants in our [DeepSeek R1 distilled for mobile AI](/blog/2025/02/02/deepseek-r1-distilled-mobile-ai/) overview.
 
 ---
 

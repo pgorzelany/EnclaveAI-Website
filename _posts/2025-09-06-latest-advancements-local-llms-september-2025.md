@@ -29,11 +29,11 @@ These tools reduce the barrier to entry and make serious local workflows possibl
 
 - **MoE goes mainstream**: Mixture‑of‑Experts designs emphasize high total capacity but activate only a small subset of parameters per token, delivering strong quality without the full runtime cost.
 - **Reasoning‑tuned small models**: Distilled reasoning variants bring step‑by‑step thinking to compact footprints—great for laptops and even phones.
-- **Strong open‑weight families**: Gemma 3, Qwen 3, Llama 3.x/4‑class releases, and Phi‑4 mini/14B continue to raise the quality bar at 1–32B scales.
+- **Strong open‑weight families**: Gemma 3, Qwen 3, Llama 3.x/4‑class releases, and Phi‑4 mini/14B continue to raise the quality bar at 1–32B scales. For specific model recommendations, see our [five best local LLMs for iPhone and Mac](/blog/2025/07/06/five-best-local-llms-iphone-mac-july-2025/).
 
 ## Compression and fine‑tuning: smaller, smarter, cheaper
 
-- **Quantization**: 4‑bit (Q4) remains the sweet spot for phones and most Macs, with Q5 improving reasoning/coding if memory allows. Ternary (~1.58‑bit) formats are emerging for select models.
+- **Quantization**: 4‑bit (Q4) remains the sweet spot for phones and most Macs, with Q5 improving reasoning/coding if memory allows. Ternary (~1.58‑bit) formats are emerging for select models. For a hands-on walkthrough, read our [practical quantization guide for iPhone and Mac](/blog/2025/11/12/practical-quantization-guide-iphone-mac-gguf/).
 - **PEFT**: LoRA/QLoRA let you adapt models efficiently without retraining the entire network, ideal for constrained devices or quick vertical customizations.
 
 ## Edge and hybrid: right‑sizing inference
@@ -43,7 +43,7 @@ These tools reduce the barrier to entry and make serious local workflows possibl
 
 ## Practical picks for iPhone and Mac (September 2025)
 
-These are pragmatic defaults; always match the model to your task and device memory.
+These are pragmatic defaults; always match the model to your task and device memory. For a deeper dive into choosing the right model, see our [guide to understanding model sizes in 2025](/blog/2025/08/13/understanding-model-sizes-in-2025/).
 
 ### iPhone (and most iPads)
 - **Best sizes**: 0.5B–4B effective parameters

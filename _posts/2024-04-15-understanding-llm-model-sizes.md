@@ -8,7 +8,7 @@ date: 2024-05-13
 
 When getting started with local AI, one of the most important decisions is choosing the right model size. Bigger isn't always better - it's about finding the sweet spot between performance and practicality for your specific needs.
 
-### Understanding Model Sizes
+## Understanding Model Sizes
 
 Local LLMs commonly come in these sizes:
 - **1B models**: Perfect for mobile devices
@@ -19,7 +19,7 @@ Local LLMs commonly come in these sizes:
 
 The number (7B, 13B, etc.) represents billions of parameters - think of it as the model's "brain size." More parameters can mean better understanding and responses, but they also require more resources.
 
-### Small Models for Mobile
+## Small Models for Mobile
 
 1B and 3B models are revolutionizing mobile AI:
 - Incredibly efficient on phones and tablets
@@ -34,7 +34,7 @@ These smaller models prove that effective AI doesn't need to be huge - they're r
 - Simple creative tasks
 - Day-to-day chat
 
-### The 7B Sweet Spot
+## The 7B Sweet Spot
 
 7B models like Mistral 7B and Llama 2 7B are popular for good reasons:
 - Run smoothly on most modern devices
@@ -45,7 +45,7 @@ These smaller models prove that effective AI doesn't need to be huge - they're r
 
 For most users, 7B models offer the best balance of performance and accessibility.
 
-### When to Consider 13B Models
+## When to Consider 13B Models
 
 13B models might be worth considering if you:
 - Have 16GB+ RAM available
@@ -54,7 +54,7 @@ For most users, 7B models offer the best balance of performance and accessibilit
 - Don't mind slightly slower responses
 - Have ~8GB storage to spare
 
-### Real-World Performance Comparison
+## Real-World Performance Comparison
 
 Here's what you can expect in practice:
 
@@ -70,7 +70,7 @@ Here's what you can expect in practice:
 - Storage needed: ~8GB
 - Best for: Complex analysis, detailed coding, creative writing
 
-### Choosing Based on Your Device
+## Choosing Based on Your Device
 
 **For Mac Users:**
 - M1/M2 with 8GB RAM: Stick to 7B models
@@ -83,7 +83,7 @@ Here's what you can expect in practice:
 - Optimized 7B models: Only for iPad Pro or specific tasks
 - Larger models aren't practical on mobile yet
 
-### Task-Specific Recommendations
+## Task-Specific Recommendations
 
 1. **Writing Assistance**
    - 7B is sufficient for most writing tasks
@@ -101,7 +101,7 @@ Here's what you can expect in practice:
    - 7B for basic analysis
    - 13B if you need deeper insights
 
-### Making the Choice
+## Making the Choice
 
 Consider these factors:
 1. **Your Device's Capabilities**
@@ -119,7 +119,7 @@ Consider these factors:
    - Battery life considerations
    - Temperature management
 
-### Our Recommendation
+## Our Recommendation
 
 For most users, we recommend starting with a 7B model:
 - Great performance-to-resource ratio
@@ -128,10 +128,10 @@ For most users, we recommend starting with a 7B model:
 - Faster responses
 - More stable experience
 
-You can always experiment with larger models later as your needs grow.
+You can always experiment with larger models later as your needs grow. If you're just getting started, our [beginner's guide to local LLMs](/blog/2024/04/04/getting-started-with-local-llms/) walks you through the setup process.
 
-### Conclusion
+## Conclusion
 
 The best model size is the one that fits your device and meets your needs. For most users, 7B models provide an excellent balance of capability and efficiency. Remember, it's better to have a responsive 7B model than a sluggish 13B model!
 
-Start with a 7B model on Enclave AI and experience the perfect balance of performance and privacy. As your needs evolve, you can explore larger models knowing exactly what to expect. 
+Start with a 7B model on Enclave AI and experience the perfect balance of performance and privacy. As your needs evolve, you can explore larger models knowing exactly what to expect. For more advanced optimization, check out our [practical guide to GGUF quantization for iPhone and Mac](/blog/2025/11/12/practical-quantization-guide-iphone-mac-gguf/). 

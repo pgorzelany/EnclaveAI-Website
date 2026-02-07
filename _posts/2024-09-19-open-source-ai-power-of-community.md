@@ -8,11 +8,11 @@ date: 2024-09-19
 
 The landscape of artificial intelligence is being transformed by open source models. While tech giants once dominated AI development, community-driven projects are now leading the charge toward more accessible, transparent, and private AI solutions. Let's explore how open source models are revolutionizing the way we interact with AI.
 
-### The Rise of Open Source AI Models
+## The Rise of Open Source AI Models
 
 The past year has seen an explosion in powerful open source language models. Meta's release of Llama 2 marked a turning point, demonstrating that open source models could compete with proprietary alternatives. Soon after, Mistral AI showed that smaller, more efficient models could deliver impressive results, while Google's Gemma brought additional options to the open source ecosystem.
 
-### Why Open Source Matters for Privacy
+## Why Open Source Matters for Privacy
 
 Open source AI represents more than just free access to technology. When models are open source:
 
@@ -22,7 +22,7 @@ Communities can optimize these models for different devices and use cases. That'
 
 Security researchers can audit the code, making open source models more trustworthy for privacy-conscious users and organizations.
 
-### Popular Open Source Models
+## Popular Open Source Models
 
 Let's look at some leading models that are changing the game:
 
@@ -35,7 +35,9 @@ This model proves that bigger isn't always better. Mistral's 7B model often outp
 **Gemma**
 Google's entry into open source AI brings robust capabilities in a compact package. Built on the foundation of Gemini technology, Gemma models offer strong performance while maintaining reasonable hardware requirements.
 
-### The Hugging Face Revolution
+To better understand how parameter counts affect performance, check out our guide on [understanding LLM model sizes](/blog/2024/05/13/understanding-llm-model-sizes/).
+
+## The Hugging Face Revolution
 
 The Hugging Face platform has become the central hub for open source AI development. It offers:
 
@@ -45,9 +47,9 @@ The Hugging Face platform has become the central hub for open source AI developm
 - Performance benchmarks
 - Implementation examples
 
-This centralized resource has accelerated the adoption of open source AI, making it easier for developers to find and implement the right models for their needs.
+This centralized resource has accelerated the adoption of open source AI, making it easier for developers to find and implement the right models for their needs. You can also [search and download GGUF models from Hugging Face directly in Enclave AI](/blog/2025/05/07/huggingface-gguf-search-enclave-ios/).
 
-### Real-World Benefits
+## Real-World Benefits
 
 Open source AI delivers tangible advantages for users:
 
@@ -60,7 +62,7 @@ Once downloaded, open source models can be used indefinitely without subscriptio
 **Customization Freedom**
 The open nature of these models allows for extensive customization. Users can fine-tune models for specific use cases, adjust parameters for better performance, or modify them to meet unique requirements.
 
-### The Future of Open Source AI
+## The Future of Open Source AI
 
 The open source AI movement is gaining momentum. We're seeing:
 
@@ -73,7 +75,7 @@ Models are becoming more efficient and easier to run on consumer devices, democr
 **Enhanced Capabilities**
 Each new release brings improved performance, better efficiency, and new capabilities, narrowing the gap with proprietary solutions.
 
-### Community Impact
+## Community Impact
 
 The open source AI community has created an ecosystem where:
 
@@ -84,7 +86,7 @@ The open source AI community has created an ecosystem where:
 
 This collaborative approach accelerates development and ensures that improvements benefit all users.
 
-### Making the Choice
+## Making the Choice
 
 For users considering open source AI:
 
@@ -93,8 +95,10 @@ For users considering open source AI:
 3. Take advantage of community resources and documentation
 4. Consider using apps like Enclave AI that make these models easily accessible
 
-### Conclusion
+## Conclusion
 
 Open source AI represents more than just free software - it's a movement toward more transparent, accessible, and private artificial intelligence. With platforms like Hugging Face and models like Llama, Mistral, and Gemma, users now have powerful options for local AI that respects their privacy and gives them complete control.
+
+If you're new to local AI, our [beginner's guide to getting started with local LLMs](/blog/2024/04/04/getting-started-with-local-llms/) is a great place to begin.
 
 Ready to experience the power of open source AI? Try Enclave AI, where we've carefully integrated the best open source models to provide a seamless, private AI experience on your device. 

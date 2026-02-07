@@ -18,6 +18,8 @@ The first generation of LFMs introduced the world to a new way of thinking about
 -   **LFM-2 700M**: The new sweet spot for mobile, outperforming 1B+ parameter models like Gemma 3 1B while being significantly faster.
 -   **LFM-2 1.2B**: A versatile and powerful model for Mac users that competes with models like Qwen3-1.7B, offering similar quality in a much smaller and faster package.
 
+To learn how model size relates to performance on your device, check out our [guide to understanding model sizes in 2025](/blog/2025/08/13/understanding-model-sizes-in-2025/).
+
 ## Why LFM-2 is a Game-Changer for Local AI
 
 Liquid AI's official benchmarks show the LFM-2 models are up to **2x faster** than competitors on CPU, making them the new leaders for on-device inference.
@@ -26,6 +28,8 @@ Liquid AI's official benchmarks show the LFM-2 models are up to **2x faster** th
 1.  **Unmatched Speed on iPhone**: The LFM-2 700M model is a breakthrough for mobile. It delivers a superior experience to many 1B models but with the speed you'd expect from a much smaller model, enabling complex, real-time interactions.
 2.  **Peak Efficiency on Mac**: The LFM-2 1.2B model gives Mac users a powerful new option for coding, writing, and analysis. It provides the quality of a much larger model without the associated memory and performance overhead, making it ideal for Apple Silicon's unified memory.
 3.  **True General-Purpose Capability**: The LFM-2 series shows strong performance across the board in knowledge, mathematics, and instruction following, making these small models surprisingly capable for a wide range of tasks.
+
+For a broader comparison of top performers, see our [five best local LLMs for iPhone and Mac](/blog/2025/07/06/five-best-local-llms-iphone-mac-july-2025/).
 
 ## Running LFM-2 Models with Enclave AI
 
@@ -37,6 +41,6 @@ With Enclave AI, you'll be able to run these next-generation models with the sam
 
 The LFM-2 series is a powerful statement that the future of AI isn't just about scale, but about smart architecture. By creating models that deliver outsized performance in a tiny footprint, Liquid AI has opened the door to a new class of AI systems that are faster and better suited for the personal devices we use every day.
 
-The era of truly powerful, private, and personal AI is here, and it's running on liquid.
+The era of truly powerful, private, and personal AI is here, and it's running on liquid. Innovations like LFM-2 highlight the incredible momentum of the [open-source AI community](/blog/2024/09/19/open-source-ai-power-of-community/) driving this revolution.
 
 *Stay tuned for updates on LFM-2 integration in Enclave AI. The future of on-device AI is evolving faster than ever, and we're excited to bring these new capabilities directly to you.* 

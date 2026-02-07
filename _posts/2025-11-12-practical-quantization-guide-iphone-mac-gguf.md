@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Practical Quantization Guide for iPhone and Mac (GGUF: Q4_K_M vs Q5_K_M vs Q8_0)"
+title: "Practical GGUF Quantization Guide for iPhone and Mac"
 description: "A no‑nonsense guide to GGUF quantization on iOS and macOS. Understand trade‑offs, memory math, and which settings to pick for the best balance of speed and quality."
 keywords: "GGUF quantization, Q4_K_M, Q5_K_M, Q8_0, iPhone LLM, Mac LLM, llama.cpp, on-device AI, Enclave AI, tokens per second, local AI"
 date: 2025-11-12
@@ -110,16 +110,12 @@ Important:
 
 ---
 
-### Related posts
+## Related Posts
 
-- Understanding Model Sizes: Which Local LLM is Right for You?  
-  See: {% link _posts/2024-04-15-understanding-llm-model-sizes.md %}
-- Gemma 3 Models: Local + Cloud Performance  
-  See: {% link _posts/2025-03-16-gemma-3-models-local-cloud-performance.md %}
-- Advanced Shortcuts + Model Selection  
-  See: {% link _posts/2025-03-09-advanced-shortcuts-model-selection.md %}
-- Chat With Your Documents (Local RAG)  
-  See: {% link _posts/2025-01-19-chat-with-your-documents.md %}
+- [Understanding Model Sizes: Which Local LLM is Right for You?]({% link _posts/2024-04-15-understanding-llm-model-sizes.md %})
+- [Gemma 3 Models: Local + Cloud Performance]({% link _posts/2025-03-16-gemma-3-models-local-cloud-performance.md %})
+- [Advanced Shortcuts + Model Selection]({% link _posts/2025-03-09-advanced-shortcuts-model-selection.md %})
+- [Chat With Your Documents (Local RAG)]({% link _posts/2025-01-19-chat-with-your-documents.md %})
 
 ---
 

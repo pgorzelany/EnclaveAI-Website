@@ -10,9 +10,9 @@ The next wave of on-device artificial intelligence has arrived. We are incredibl
 
 This isn't just an update; it's a fundamental shift in what's possible on your personal devices.
 
-### Gemma 3n: A Leap Forward in Mobile AI
+## Gemma 3n: A Leap Forward in Mobile AI
 
-Gemma 3n is a groundbreaking model designed from the ground up for mobile-first performance. It was engineered to be exceptionally fast and efficient, bringing capabilities recently exclusive to the cloud directly to the devices you use every day.
+Gemma 3n is a groundbreaking model designed from the ground up for mobile-first performance. Building on the strong foundation of its predecessor—read more about [Gemma 3's local and cloud performance](/blog/2025/03/16/gemma-3-models-local-cloud-performance/)—it was engineered to be exceptionally fast and efficient, bringing capabilities recently exclusive to the cloud directly to the devices you use every day.
 
 What makes Gemma 3n so special?
 
@@ -21,7 +21,7 @@ What makes Gemma 3n so special?
 - **Optimized for Apple Silicon**: The architecture is optimized for the hardware in your iPhone, iPad, and Mac, ensuring you get maximum performance for your text-based AI tasks.
 - **Many-in-1 Flexibility**: Gemma 3n includes nested submodels, allowing Enclave AI to dynamically balance performance and quality on the fly, ensuring the best text-generation experience for any given task.
 
-### The Enclave AI Experience, Supercharged
+## The Enclave AI Experience, Supercharged
 
 Integrating Gemma 3n into Enclave AI elevates your personal AI assistant to a whole new level, enabling experiences that are faster, smarter, and more versatile—all centered around text.
 
@@ -32,9 +32,9 @@ Because Gemma 3n runs so efficiently on-device, your text-based interactions are
 Thanks to its next-generation architecture, Gemma 3n has a deeper grasp of language. This translates to more accurate answers, better summaries, and more insightful analysis of your documents and conversations.
 
 **Deeper Insights, Instantly**  
-The model's power and efficiency mean you can analyze documents and have complex conversations with an AI that understands more context and nuance, without ever needing to connect to the internet.
+The model's power and efficiency mean you can analyze documents and have complex conversations with an AI that understands more context and nuance, without ever needing to connect to the internet. To see how Gemma 3n compares to other top models, explore our [five best local LLMs for iPhone and Mac](/blog/2025/07/06/five-best-local-llms-iphone-mac-july-2025/).
 
-### Your Privacy, Our Unbreakable Promise
+## Your Privacy, Our Unbreakable Promise
 
 The power of Gemma 3n comes with the same unwavering commitment to privacy that defines Enclave AI.
 
@@ -42,7 +42,9 @@ The power of Gemma 3n comes with the same unwavering commitment to privacy that 
 - **Zero Data Transmission**: Your data is yours alone. Nothing is ever sent to the cloud.
 - **Complete Offline Functionality**: Your AI assistant works wherever you are, with or without an internet connection.
 
-### Step into the Future of AI Today
+To understand why on-device processing matters, read our deep dive on [privacy in AI and why local matters](/blog/2024/06/08/privacy-in-ai-why-local-matters/).
+
+## Step into the Future of AI Today
 
 The Gemma 3n models are available in Enclave AI right now. Update your app on the App Store, choose Gemma 3n from the model selection menu, and be among the first to experience the power of a truly mobile-first, private AI.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Local AI in Early 2026: CES Highlights, New Models, and What It Means for iPhone and Mac"
+title: "Local AI in Early 2026: CES Highlights and New Models"
 description: "Explore the latest on-device AI developments from CES 2026, including new processors, compact AI hardware, and model updates that bring powerful local AI to your devices."
 keywords: "local AI 2026, CES 2026 AI, on-device AI, FunctionGemma, Lenovo Qira, Intel Panther Lake, AMD Ryzen AI, Qwen 3, iPhone AI, Mac AI, private AI, offline LLM"
 date: 2026-01-15
@@ -124,11 +124,8 @@ The announcements from CES 2026 and the ongoing model releases confirm what we'v
 
 ---
 
-### Related Posts
+## Related Posts
 
-- Five Best Local LLMs for iPhone and Mac  
-  See: {% link _posts/2025-07-06-five-best-local-llms-iphone-mac-july-2025.md %}
-- Local LLMs in September 2025: What's New  
-  See: {% link _posts/2025-09-06-latest-advancements-local-llms-september-2025.md %}
-- The Practical Quantization Guide for iPhone and Mac  
-  See: {% link _posts/2025-11-12-practical-quantization-guide-iphone-mac-gguf.md %}
+- [Five Best Local LLMs for iPhone and Mac]({% link _posts/2025-07-06-five-best-local-llms-iphone-mac-july-2025.md %})
+- [Local LLMs in September 2025: What's New]({% link _posts/2025-09-06-latest-advancements-local-llms-september-2025.md %})
+- [The Practical Quantization Guide for iPhone and Mac]({% link _posts/2025-11-12-practical-quantization-guide-iphone-mac-gguf.md %})

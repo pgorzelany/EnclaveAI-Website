@@ -8,7 +8,7 @@ date: 2025-03-01
 
 We're thrilled to announce a highly requested feature that enhances both productivity and privacy: local conversation history in Enclave AI. Starting today, you can access, review, and continue your previous conversations—all while maintaining our unwavering commitment to privacy through complete local storage.
 
-### Your Conversations, Preserved and Protected
+## Your Conversations, Preserved and Protected
 
 Until now, Enclave AI has focused on providing powerful, in-the-moment AI assistance without storing conversation data. While this approach maximized privacy, many users expressed a desire to revisit valuable conversations and continue discussions where they left off.
 
@@ -19,9 +19,9 @@ We've listened to your feedback and developed a solution that preserves both fun
 - Reference important information from past interactions
 - Organize and manage your conversations for better productivity
 
-Most importantly, your conversation data never leaves your device—it's stored locally using secure, encrypted storage that only you can access.
+Most importantly, your conversation data never leaves your device—it's stored locally using secure, encrypted storage that only you can access. This aligns with our core philosophy—learn more about [why local AI processing matters for privacy](/blog/2024/06/08/privacy-in-ai-why-local-matters/).
 
-### Complete Control Over Your Data
+## Complete Control Over Your Data
 
 Privacy isn't just about where data is stored—it's also about who controls it. With our new conversation history feature, you maintain complete control over your data:
 
@@ -32,7 +32,7 @@ Privacy isn't just about where data is stored—it's also about who controls it.
 
 This approach ensures that you get the benefits of conversation persistence without compromising on privacy or security.
 
-### Practical Benefits for Everyday Use
+## Practical Benefits for Everyday Use
 
 The addition of conversation history transforms how you can use Enclave AI in your daily workflow:
 
@@ -40,7 +40,7 @@ The addition of conversation history transforms how you can use Enclave AI in yo
 Start a complex project in the morning, close the app for meetings, and pick up exactly where you left off in the afternoon—complete with all context and previous exchanges.
 
 **Knowledge Management**  
-Build a personal knowledge base through your conversations. When you need to reference information from a previous discussion, it's just a few taps away.
+Build a personal knowledge base through your conversations. When you need to reference information from a previous discussion, it's just a few taps away. This pairs perfectly with our [document context feature](/blog/2025/01/19/chat-with-your-documents/) for building rich, private knowledge repositories.
 
 **Project Organization**  
 Group related conversations by project or topic, making it easier to maintain context across multiple sessions and track progress over time.
@@ -48,16 +48,16 @@ Group related conversations by project or topic, making it easier to maintain co
 **Learning and Improvement**  
 Review past interactions to see how you've refined your prompts and questions over time, helping you become more effective at working with AI.
 
-### Looking Forward
+## Looking Forward
 
 The addition of local conversation history represents an important evolution in Enclave AI's capabilities. By preserving the context and content of your interactions while maintaining our core privacy principles, we're creating an AI assistant that truly adapts to your needs and workflow.
 
 In the coming months, we'll be expanding on this foundation with additional features like conversation tagging, advanced search capabilities, and enhanced organization tools—all while keeping your data completely private and under your control.
 
-### Try It Today
+## Try It Today
 
 The conversation history feature is available now in the latest update of Enclave AI for both iOS. Simply update your app to start benefiting from this new capability. Your existing conversations will automatically begin being saved locally, and you'll find a new "History" section in the app where you can browse, continue, or manage your past interactions.
 
-As always, we welcome your feedback as you explore this new feature. Your input helps us continue refining and improving Enclave AI while staying true to our mission of providing powerful AI assistance without compromising on privacy.
+As always, we welcome your feedback as you explore this new feature. Your input helps us continue refining and improving Enclave AI while staying true to our mission of providing powerful AI assistance without compromising on privacy. Looking for inspiration? Check out our [creative ways to use offline AI](/blog/2024/08/15/creative-ways-to-use-offline-ai/) to get the most out of your conversations.
 
 Experience the perfect balance of convenience and privacy with Enclave AI's new conversation history feature—where your conversations remain yours alone. 
