@@ -2,12 +2,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <!-- Resource hints for external resources -->
-    <link rel="preconnect" href="https://cdn.tailwindcss.com">
-    <link rel="dns-prefetch" href="https://cdn.tailwindcss.com">
-    
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <!-- Tailwind CSS (compiled) -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/output.css">
     
     <!-- Primary Meta Tags -->
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
@@ -22,18 +18,18 @@
     {% if page.image %}
     <meta property="og:image" content="{{ site.url }}{{ page.image }}">
     {% else %}
-    <meta property="og:image" content="{{ site.url }}/assets/images/og-default.webp">
+    <meta property="og:image" content="{{ site.url }}/assets/images/enclave-icon.webp">
     {% endif %}
     
     <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:card" content="summary">
     <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     {% if page.image %}
     <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
     {% else %}
-    <meta name="twitter:image" content="{{ site.url }}/assets/images/og-default.webp">
+    <meta name="twitter:image" content="{{ site.url }}/assets/images/enclave-icon.webp">
     {% endif %}
     <meta name="twitter:site" content="@{{ site.twitter.username }}">
     <meta name="twitter:creator" content="@{{ site.twitter.username }}">
@@ -41,7 +37,6 @@
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/assets/images/favicon-32x32.png">
 
-    <!-- Add these meta tags after line 11 -->
     <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}local AI, offline AI, private AI assistant, AI privacy, LLM, language model, iOS AI, macOS AI{% endif %}">
     <meta name="author" content="{{ site.author }}">
     <meta name="robots" content="index, follow">

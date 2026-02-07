@@ -98,7 +98,8 @@ description: "Privacy-focused AI chatbot running completely offline on iOS and m
 <section id="features" class="py-24">
     <div class="max-w-7xl mx-auto px-4">
         {% for feature in site.data.features %}
-        <div class="flex flex-col {% assign mod = forloop.index | modulo: 2 %}{% if mod == 1 %}md:flex-row-reverse{% else %}md:flex-row{% endif %} items-center {% unless forloop.last %}mb-24{% endunless %}">
+        {% assign mod = forloop.index | modulo: 2 %}
+        <div class="flex flex-col {% if mod == 1 %}md:flex-row-reverse{% else %}md:flex-row{% endif %} items-center {% unless forloop.last %}mb-24{% endunless %}">
             <div class="w-full md:w-1/2 {% if mod == 1 %}pl-0 md:pl-12{% else %}pr-0 md:pr-12{% endif %} mb-8 md:mb-0">
                 <h2 class="text-4xl font-bold mb-4 text-center">{{ feature.title }}</h2>
                 <p class="text-xl text-gray-600 mb-6 text-center">{{ feature.description }}</p>

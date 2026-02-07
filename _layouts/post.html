@@ -8,7 +8,7 @@ layout: default
   "@type": "Article",
   "headline": "{{ page.title | escape }}",
   "description": "{{ page.description | default: page.excerpt | strip_html | truncate: 160 | escape }}",
-  "image": "{{ page.image | default: '/assets/images/og-default.webp' | prepend: site.url }}",
+  "image": "{{ page.image | default: '/assets/images/enclave-icon.webp' | prepend: site.url }}",
   "datePublished": "{{ page.date | date_to_xmlschema }}",
   "dateModified": "{{ page.date | date_to_xmlschema }}",
   "author": {

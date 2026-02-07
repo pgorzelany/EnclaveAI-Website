@@ -1,0 +1,14 @@
+{
+  "name": "enclaveai-website",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --minify",
+    "watch:css": "tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3",
+    "@tailwindcss/typography": "^0.5",
+    "husky": "^9"
+  }
+}
