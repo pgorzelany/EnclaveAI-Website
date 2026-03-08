@@ -1,0 +1,26 @@
+---
+description: Tailwind CSS build process — CSS is pre-compiled, not loaded from a CDN
+alwaysApply: true
+---
+
+# Tailwind CSS Build Process
+
+This site uses a pre-compiled Tailwind CSS file — there is no CDN or JIT in the browser.
+
+- **Source:** `assets/css/input.css` (Tailwind directives)
+- **Output:** `assets/css/output.css` (committed, served statically)
+- **Config:** `tailwind.config.js` (scans `_includes`, `_layouts`, `_pages`, `_posts`, `blog`, `index.html`, `404.html`)
+
+After adding or changing Tailwind classes in any HTML/Markdown file, rebuild the CSS:
+
+```bash
+npm run build:css
+```
+
+For live development, use the watcher alongside `jekyll serve`:
+
+```bash
+npm run watch:css
+```
+
+If styles appear broken locally, the most likely cause is that `output.css` hasn't been rebuilt to include new utility classes.
