@@ -3,7 +3,7 @@ layout: post
 title: "Enclave 1.70: Thinking Support, Live Metrics, and a New Brain"
 description: "Enclave 1.70 brings chain-of-thought thinking support, real-time tokens-per-second metrics, LiquidAI LFM 2.5, and smoother streaming to on-device AI chat."
 keywords: "Enclave AI thinking support, tokens per second local LLM, LiquidAI LFM 2.5 on-device, Enclave AI update iOS, chain of thought local AI"
-date: 2026-03-11
+date: 2026-03-12
 ---
 
 Enclave 1.70 is the most transparent version of the app we have ever shipped. You can now watch your local model think through problems in real time, see exactly how fast it generates text, and run conversations on a new embedded model that delivers noticeably better answers — all completely offline, completely private, on your own device. Here is everything that changed and why it matters.
