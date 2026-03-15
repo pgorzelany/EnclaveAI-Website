@@ -12,10 +12,36 @@ permalink: /pricing/
   "name": "Enclave AI Pro",
   "description": "Monthly subscription unlocking cloud AI models with privacy-first principles. No accounts, no tracking.",
   "url": "{{ site.url }}/pricing/",
+  "image": "{{ site.url }}/assets/images/enclave-icon.webp",
+  "brand": {
+    "@type": "Brand",
+    "name": "Enclave AI"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "{{ site.data.reviews.size }}",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "{{ site.data.reviews[0].author }}"
+    },
+    "reviewBody": "{{ site.data.reviews[0].text }}"
+  },
   "offers": {
     "@type": "Offer",
     "price": "9.99",
     "priceCurrency": "USD",
+    "priceValidUntil": "2026-12-31",
     "priceSpecification": {
       "@type": "UnitPriceSpecification",
       "price": "9.99",
@@ -24,7 +50,42 @@ permalink: /pricing/
       "billingIncrement": "P1M"
     },
     "availability": "https://schema.org/InStock",
-    "url": "{{ site.app_store_url }}"
+    "url": "{{ site.app_store_url }}",
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": "0",
+          "maxValue": "0",
+          "unitCode": "d"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": "0",
+          "maxValue": "0",
+          "unitCode": "d"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnDays": "0",
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnFees": "https://schema.org/FreeReturn"
+    }
   }
 }
 </script>
