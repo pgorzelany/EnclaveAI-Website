@@ -22,8 +22,3 @@
   description: Seamlessly integrate powerful local AI into your automation workflows with Shortcuts support. Trigger AI tasks using Siri voice commands, process text, generate content, and analyze data - all offline. Create complex automations that respect your privacy while leveraging AI capabilities.
   image: ios-shortcuts.webp
   alt: Shortcuts and Siri Integration
-
-- title: iMessage Integration
-  description: Access AI assistance directly within your iMessage conversations. Get help composing messages, summarizing discussions, and generating responses without leaving the Messages app. Enjoy AI-powered communication while maintaining end-to-end privacy with no data leaving your device.
-  image: ios-messages.webp
-  alt: iMessage Integration Feature

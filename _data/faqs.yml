@@ -31,9 +31,6 @@
 - question: What's the difference between this and ChatGPT?
   answer: While ChatGPT processes everything in the cloud, our app runs AI models directly on your device. This means you maintain complete privacy, have no recurring subscription costs, and can use the AI features even without internet access. On macOS, you can even choose larger models that offer capabilities closer to cloud-based services.
 
-- question: How does iMessage integration work?
-  answer: The app adds an iMessage extension that lets you interact with the AI directly in your Messages app. You can get help composing messages, summarizing conversations, or generating responses - all processed locally on your device without sending your messages to any external servers.
-
 - question: Will the app drain my battery?
   answer: The app is optimized to use Apple's Neural Engine efficiently on both platforms. On iOS, you can choose from several specially optimized models that balance capabilities with power consumption. On macOS, you have additional options for larger models. All models are optimized to make efficient use of your device's resources.
 
