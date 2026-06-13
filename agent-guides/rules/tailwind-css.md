@@ -1,7 +1,3 @@
----
-description: Tailwind CSS build process — CSS is pre-compiled, not loaded from a CDN
-alwaysApply: true
----
 
 # Tailwind CSS Build Process
 
