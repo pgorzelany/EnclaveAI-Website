@@ -12,7 +12,7 @@ This policy defines the bounded standing authorization for the scheduled Enclave
 
 ## Eligibility Gates
 
-Publish no more than one post in any 13-day period. Skip the run if a newer post already satisfies that cadence.
+Publish no more than one post in any 6-day period. Skip the run if a newer post already satisfies that cadence.
 
 Before researching or writing:
 
