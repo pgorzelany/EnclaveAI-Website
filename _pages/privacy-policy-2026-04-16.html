@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Privacy Policy
-permalink: /privacy-policy/
+title: Privacy Policy (April 16, 2026)
+permalink: /privacy-policy/2026-04-16/
 ---
 
 <div class="py-8">
     <h1 class="text-4xl font-bold mb-8">Privacy Policy for Enclave AI</h1>
 
-    <p class="text-gray-600 mb-6"><strong>Effective Date:</strong> September 29, 2026</p>
-    
+    <p class="text-gray-600 mb-6"><strong>Effective Date:</strong> April 16, 2026</p>
+
     <p class="text-gray-500 mb-6"><em>Previous versions of this policy can be found in our <a href="/privacy-policy/archive" class="text-blue-600 hover:underline">policy archive</a>.</em></p>
 
     <p class="mb-6">At Enclave AI, privacy is our core feature. Our app is designed to operate primarily offline, ensuring your data stays exclusively on your device when using local models. We now also offer optional cloud-based models through OpenRouter integration for users who need additional capabilities.</p>
@@ -16,48 +16,52 @@ permalink: /privacy-policy/
     <h2 class="text-2xl font-bold mt-8 mb-4">1. Data Collection Policy</h2>
     <p class="mb-6">We are committed to privacy through technical design:</p>
     <ul class="list-disc ml-6 mb-6">
-        <li class="mb-2">Conversations with local models are processed on your device and are not sent to an AI service</li>
-        <li class="mb-2">Local models do not require an account or subscription</li>
-        <li class="mb-2">Firebase Analytics receives app usage events, such as screen views and button taps, to help us improve the app</li>
-        <li class="mb-2">Firebase Crashlytics receives crash reports and device diagnostics to help us fix problems</li>
-        <li class="mb-2">Cloud AI requests pass through our servers to OpenRouter and a model provider as described in Section 5</li>
-        <li class="mb-2">For subscribers, our servers maintain subscription status and cloud AI credits as described in Section 6</li>
+        <li class="mb-2">When using local models, we do not collect any personal information</li>
+        <li class="mb-2">We do not require account creation or registration for our app</li>
+        <li class="mb-2">We use Firebase Analytics to collect anonymous usage metrics (e.g., screen views, button taps) to improve the app</li>
+        <li class="mb-2">We use Firebase Crashlytics to collect crash reports and diagnostics to improve app stability</li>
+        <li class="mb-2">We do not track or store user messages or prompts</li>
+        <li class="mb-2">For subscription users, we maintain servers to manage subscription status and cloud AI credits (see Section 6 for details)</li>
+        <li class="mb-2">We have no ability to access your conversations or prompts</li>
     </ul>
 
     <h2 class="text-2xl font-bold mt-8 mb-4">2. App Store and Device Permissions</h2>
-    <p class="mb-6">The app may use the following device permissions and network connections:</p>
+    <p class="mb-6">The only data collection occurs through Apple's App Store during app installation and updates. This is handled by Apple, not us. The app may request the following device permissions:</p>
     <ul class="list-disc ml-6 mb-6">
-        <li class="mb-2">Microphone access for voice chat. Speech recognition runs on your device; if you choose a cloud model, the resulting text is sent as part of your cloud AI request.</li>
-        <li class="mb-2">Siri & Shortcuts can use either a local or a cloud model, depending on the model you select.</li>
-        <li class="mb-2">Internet connectivity is used for model downloads, cloud AI, subscriptions, analytics, and diagnostics.</li>
+        <li class="mb-2">Microphone access (for voice chat feature - processed entirely on device)</li>
+        <li class="mb-2">Siri & Shortcuts access (for automation features - processed locally)</li>
+        <li class="mb-2">Internet access (required only for cloud model usage through OpenRouter)</li>
     </ul>
 
     <h2 class="text-2xl font-bold mt-8 mb-4">3. Local Data Storage</h2>
-    <p class="mb-6">The app stores the following data on your device:</p>
+    <p class="mb-6">All data generated through your use of Enclave AI is stored locally on your device:</p>
     <ul class="list-disc ml-6 mb-6">
         <li class="mb-2">Custom assistant configurations</li>
         <li class="mb-2">User preferences and settings</li>
         <li class="mb-2">Conversation history (including both local and cloud model interactions)</li>
     </ul>
-    <p class="mb-6">Conversation history is stored locally and can be deleted in the app or by removing the app. When you use a cloud model, the content needed for that request is also transmitted as described in Section 5.</p>
+    <p class="mb-6">This data remains under your control and can be deleted using your device's storage management features.</p>
 
     <h2 class="text-2xl font-bold mt-8 mb-4">4. AI Models</h2>
     <p class="mb-6">Our local AI models:</p>
     <ul class="list-disc ml-6 mb-6">
-        <li class="mb-2">Are included with the app or downloaded to your device before use</li>
+        <li class="mb-2">Are downloaded once during app installation</li>
         <li class="mb-2">Run completely offline on your device</li>
         <li class="mb-2">Do not send data to external servers</li>
         <li class="mb-2">Do not require internet connection for operation</li>
     </ul>
 
     <h2 class="text-2xl font-bold mt-8 mb-4">5. OpenRouter Integration and Cloud Models</h2>
-    <p class="mb-6">When you submit a request to a cloud model, the app sends it to Enclave's servers, which forward it to OpenRouter and the provider serving the selected model. The provider can vary by model and routing. The request may include your message, relevant conversation history, custom assistant instructions, text extracted from attachments you add, transcribed speech, and enabled tool results. This content is used to generate and return the response.</p>
+    <p class="mb-6">When using cloud-based models through our OpenRouter integration:</p>
     <ul class="list-disc ml-6 mb-6">
-        <li class="mb-2">Our servers process cloud requests to provide the response and account for subscription credits. We do not keep a server-side copy of your conversation history.</li>
-        <li class="mb-2">OpenRouter and the model provider process the request under their own privacy policies. Provider logging and retention practices may differ.</li>
-        <li class="mb-2">We do not sell conversation content or use it for advertising.</li>
+        <li class="mb-2">Your conversation data is sent to OpenRouter's servers and the respective model providers</li>
+        <li class="mb-2">Data handling is subject to OpenRouter's privacy policy and the policies of the model providers</li>
+        <li class="mb-2">We clearly indicate when you are using a cloud model versus a local model</li>
+        <li class="mb-2">Cloud model usage requires an internet connection and an OpenRouter account</li>
+        <li class="mb-2">We do not store or process your OpenRouter API key on our servers</li>
+        <li class="mb-2">We have no control over how OpenRouter or third-party model providers may use data sent to their services</li>
     </ul>
-    <p class="mb-6">For more information, see <a href="https://openrouter.ai/privacy" class="text-blue-600 hover:underline">OpenRouter's Privacy Policy</a> and its <a href="https://openrouter.ai/providers/" class="text-blue-600 hover:underline">provider directory</a>, which links to provider-specific policies.</p>
+    <p class="mb-6">For more information about OpenRouter's data practices, please refer to <a href="https://openrouter.ai/privacy" class="text-blue-600 hover:underline">OpenRouter's Privacy Policy</a>.</p>
 
     <h2 class="text-2xl font-bold mt-8 mb-4">6. Subscription and Payment Data</h2>
     <p class="mb-6">When you subscribe to Enclave AI's cloud AI services:</p>
@@ -72,25 +76,27 @@ permalink: /privacy-policy/
     <p class="mb-6">This data is used solely to provide and manage your subscription service and is not used for advertising or marketing purposes.</p>
 
     <h2 class="text-2xl font-bold mt-8 mb-4">7. Analytics and Crash Reporting (Firebase)</h2>
-    <p class="mb-6">We use Firebase Analytics and Firebase Crashlytics to understand app usage and fix problems:</p>
+    <p class="mb-6">We use Firebase Analytics and Firebase Crashlytics to improve app quality:</p>
     <ul class="list-disc ml-6 mb-6">
-        <li class="mb-2">Analytics includes app interactions such as screen views, button taps, and model selections, together with app and device information.</li>
-        <li class="mb-2">Crash reports include technical diagnostics such as the device model, OS version, and stack traces.</li>
-        <li class="mb-2">Firebase may use an app installation identifier to associate events or crashes from the same installation. We do not intentionally include conversation content in analytics events.</li>
+        <li class="mb-2">Analytics data is anonymous and limited to app interactions such as screen views and button taps</li>
+        <li class="mb-2">Crash reports include technical diagnostics (e.g., device model, OS version, stack traces) and do not include user messages or personal content</li>
+        <li class="mb-2">We do not collect names, emails, or any identifiers tied to your identity</li>
+        <li class="mb-2">There is no authentication; analytics are not linked to any account</li>
     </ul>
     <p class="mb-6">For more information, see <a href="https://firebase.google.com/support/privacy" class="text-blue-600 hover:underline">Firebase Privacy and Security</a>.</p>
 
     <h2 class="text-2xl font-bold mt-8 mb-4">8. Third-Party Integration Privacy</h2>
     <p class="mb-6">When using system integrations:</p>
     <ul class="list-disc ml-6 mb-6">
-        <li class="mb-2">Siri & Shortcuts use Apple's frameworks, and voice chat uses on-device speech recognition.</li>
-        <li class="mb-2">If you select a cloud model for these features, the request text is sent to the services described in Section 5.</li>
+        <li class="mb-2">Siri & Shortcuts interactions are handled through Apple's privacy-preserving frameworks</li>
+        <li class="mb-2">Voice processing uses Apple's on-device speech recognition</li>
+        <li class="mb-2">When using cloud models with these integrations, your data will be sent to external servers</li>
     </ul>
 
     <h2 class="text-2xl font-bold mt-8 mb-4">9. Data Retention</h2>
     <p class="mb-6">We retain data for the following periods:</p>
     <ul class="list-disc ml-6 mb-6">
-        <li class="mb-2"><strong>Subscription data:</strong> Retained while needed to manage your subscription, handle billing and support, and meet legal obligations. You can request deletion as described below.</li>
+        <li class="mb-2"><strong>Subscription data:</strong> Retained while your subscription is active, plus 90 days after expiration for account recovery purposes</li>
         <li class="mb-2"><strong>Analytics data:</strong> Retained for up to 14 months per Firebase defaults</li>
         <li class="mb-2"><strong>Crash reports:</strong> Retained for 90 days</li>
         <li class="mb-2"><strong>Local data:</strong> Stored on your device until you delete it or uninstall the app</li>
@@ -103,7 +109,7 @@ permalink: /privacy-policy/
         <li class="mb-2"><strong>Correction:</strong> Request correction of inaccurate data</li>
         <li class="mb-2"><strong>Deletion:</strong> Request deletion of your personal data</li>
         <li class="mb-2"><strong>Portability:</strong> Request your data in a portable format</li>
-        <li class="mb-2"><strong>Cloud AI:</strong> Switch to a local model at any time to stop sending new cloud AI requests. This does not delete requests already processed by third parties.</li>
+        <li class="mb-2"><strong>Opt-out:</strong> Opt out of analytics data collection by disabling analytics in iOS/macOS privacy settings</li>
     </ul>
     <p class="mb-6">To exercise these rights, contact us at <strong>{{ site.email }}</strong>. We will respond to your request within 30 days.</p>
 
