@@ -1,0 +1,42 @@
+---
+layout: default
+title: How Enclave Uses Your Data
+permalink: /how-enclave-uses-data/
+---
+
+<div class="py-8">
+    <h1 class="text-4xl font-bold mb-8">How Enclave Uses Your Data</h1>
+
+    <p class="mb-6">You can use Enclave with a model that runs on your device or choose an optional cloud model. The destination of a chat request depends on that choice.</p>
+
+    <h2 class="text-2xl font-bold mt-8 mb-4">Local models</h2>
+    <p class="mb-6">Your prompts, attachments, and conversation are processed on your device when you use a local model. They are not sent to Enclave, OpenRouter, or an AI model provider to generate the reply. The app may still send the usage and diagnostic data described below.</p>
+
+    <h2 class="text-2xl font-bold mt-8 mb-4">Cloud models</h2>
+    <p class="mb-6">When you send a message to a cloud model, the request goes from your device to Enclave's servers, then to OpenRouter, then to the provider serving the selected model. The response returns through the same services. We use the request to generate your reply and account for subscription credits.</p>
+
+    <p class="mb-6">A cloud request can contain:</p>
+    <ul class="list-disc ml-6 mb-6">
+        <li class="mb-2">Your message and relevant earlier messages in the conversation</li>
+        <li class="mb-2">Instructions from an assistant you have configured</li>
+        <li class="mb-2">Text extracted on your device from files you attach</li>
+        <li class="mb-2">Speech transcribed on your device when you use voice features</li>
+        <li class="mb-2">Results from tools you enable for the conversation</li>
+    </ul>
+
+    <p class="mb-6">Enclave stores your conversation history on your device and does not keep a server-side copy of that history. Our servers keep subscription and credit records, and record request metadata such as the model used and token usage. OpenRouter and the serving provider process the request under their own policies; logging and retention can vary by provider.</p>
+
+    <h2 class="text-2xl font-bold mt-8 mb-4">Who receives a cloud request?</h2>
+    <ul class="list-disc ml-6 mb-6">
+        <li class="mb-2"><strong>Enclave AI:</strong> Routes the request and manages subscription credits.</li>
+        <li class="mb-2"><strong>OpenRouter:</strong> Routes the request to a model provider. See <a href="https://openrouter.ai/privacy" class="text-blue-600 hover:underline">OpenRouter's privacy policy</a>.</li>
+        <li class="mb-2"><strong>Model provider:</strong> Runs the selected model. The serving provider can vary by model and routing. <a href="https://openrouter.ai/providers/" class="text-blue-600 hover:underline">OpenRouter's provider directory</a> lists current providers, their retention information, and links to their privacy policies.</li>
+    </ul>
+
+    <p class="mb-6">The company named in a model's title may be its developer rather than the company operating the server that handles your request. If you do not want your chat content to leave your device for AI processing, choose a local model.</p>
+
+    <h2 class="text-2xl font-bold mt-8 mb-4">Other app data</h2>
+    <p class="mb-6">Firebase Analytics receives app usage events, such as screen views, taps, and model selections. Firebase Crashlytics receives crash reports and device diagnostics. We do not intentionally include conversation content in analytics events. If you subscribe, Enclave receives an Apple transaction identifier and stores your subscription status and credit balance; Apple handles payment card details.</p>
+
+    <p class="mb-6">For retention, your rights, and contact information, read the full <a href="/privacy-policy/" class="text-blue-600 hover:underline">Privacy Policy</a>.</p>
+</div>
