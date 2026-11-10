@@ -1,0 +1,12 @@
+<article class="card plan-card{% if include.plan.pro %} plan-card--pro{% endif %}">
+    <p class="eyebrow">{{ include.plan.label }}</p>
+    <h2>{{ include.plan.name }}</h2>
+    <div class="plan-price"><strong>{{ include.plan.price }}</strong><span>{{ include.plan.period }}</span></div>
+    <p>{{ include.plan.description }}</p>
+    <ul class="plan-features">{% for feature in include.plan.features %}<li>{{ feature }}</li>{% endfor %}</ul>
+    {% if include.plan.pro %}
+        {% include ui/button.html href=site.app_store_url label=include.plan.button variant="contrast" %}
+    {% else %}
+        {% include ui/button.html href=site.app_store_url label=include.plan.button %}
+    {% endif %}
+</article>

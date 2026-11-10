@@ -1,24 +1,20 @@
-- title: Local Voice Chat
-  description: Chat with AI using your voice, all processed locally on your device. No cloud services, no data collection, and no internet connection required. Your voice conversations remain completely private and secure, leveraging on-device speech recognition and synthesis.
-  image: ios-voice.webp
-  alt: Voice Chat Privacy Feature
+- title: "A conversation with your documents."
+  label: "Read & understand"
+  description: "Bring a PDF or text file into a conversation. Ask questions, find key details and get a clearer view of the contents. Choose a local model to keep the conversation on your device."
+  image: iphone-documents.webp
+  alt: "Enclave answering questions about a sample travel document"
+  layout: wide
 
-- title: Top open source AI models
-  description: Access a curated selection of leading open-source AI models optimized for local use. Choose from various model sizes and capabilities to balance performance and resource usage. Download and run models directly on your device, ensuring complete privacy and offline functionality.
-  image: ios-model-manager.webp
-  alt: AI Model Selection Interface
+- title: "An assistant that fits your day."
+  label: "Make it personal"
+  description: "Create assistants with their own instructions. Keep a writing partner, a coding helper or a fresh perspective close at hand."
+  image: iphone-assistants.webp
+  alt: "Custom assistants in the Enclave app"
+  layout: compact
 
-- title: Custom AI Assistants
-  description: Create personalized AI assistants tailored to your specific needs. Define custom system prompts, personalities, and expertise areas for different use cases. Save and switch between multiple assistants, each maintaining their own conversation history and context, all while keeping your data private.
-  image: ios-assistants.webp
-  alt: Custom AI Assistants Feature
-
-- title: Chat with your documents
-  description: Upload and interact with your documents through natural conversation. Ask questions, get summaries, and extract insights from PDFs, text files, and more. All document processing happens locally on your device, ensuring your sensitive information stays private and secure.
-  image: ios-document-chat.webp
-  alt: Document Chat Interface
-
-- title: Shortcuts & Siri Integration
-  description: Seamlessly integrate powerful local AI into your automation workflows with Shortcuts support. Trigger AI tasks using Siri voice commands, process text, generate content, and analyze data - all offline. Create complex automations that respect your privacy while leveraging AI capabilities.
-  image: ios-shortcuts.webp
-  alt: Shortcuts and Siri Integration
+- title: "Choose your kind of intelligence."
+  label: "Explore local models"
+  description: "Find and download open-source models. Choose the right balance of capabilities, speed and memory use for your device."
+  image: iphone-models.webp
+  alt: "Local model discovery in Enclave"
+  layout: compact

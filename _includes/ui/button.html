@@ -1,0 +1,3 @@
+<a href="{{ include.href | escape }}" class="button button--{{ include.variant | default: 'primary' }}{% if include.class %} {{ include.class }}{% endif %}"{% if include.current %} aria-current="page"{% endif %}>
+    {{ include.label }}{% unless include.arrow == false %}<span aria-hidden="true">↗</span>{% endunless %}
+</a>

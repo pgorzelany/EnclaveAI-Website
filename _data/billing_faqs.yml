@@ -1,0 +1,14 @@
+- question: "How do cloud credits work?"
+  answer: "The USD subscription includes $9.99 in cloud credits each billing period. Credits reset at the start of the next period; unused credits do not carry over. Local AI does not use cloud credits."
+
+- question: "Do I need a subscription for local AI?"
+  answer: "No. You can use local models for free. Pro is optional and adds access to cloud models. Model availability and performance depend on your device."
+
+- question: "What happens when my credits run out?"
+  answer: "You can continue using local models. Cloud models become available again when your credits reset at the start of the next billing period."
+
+- question: "How do I cancel?"
+  answer: "Your subscription is managed by Apple. Cancel in your device’s subscription settings. You keep Pro access until the end of the current billing period."
+
+- question: "What happens to data sent to a cloud model?"
+  answer: "The request travels through Enclave and OpenRouter to the serving model provider. Cloud processing can include your message, relevant earlier messages and attached context. Enclave does not keep a server-side copy of your conversation history. See our [data guide](/how-enclave-uses-data/) for details, including usage records and provider policies."

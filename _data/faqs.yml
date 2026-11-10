@@ -1,47 +1,29 @@
-- question: Is my data private?
-  answer: Yes, absolutely! All conversations happen locally on your device, and we don't collect or store any of your data. The AI model runs completely offline, which means your conversations, prompts, and any generated content never leave your device and are not shared with any third parties.
+- question: "Does Enclave work offline?"
+  answer: "Yes. Download a local model while connected to the internet, then use it offline. Optional cloud models and online tools need an internet connection."
 
-- question: What devices are supported?
-  answer: The app is available for both Mac and iPhone. You can download it from the Mac App Store for your MacBook or desktop Mac, and from the iOS App Store for your iPhone. Both versions offer the same core privacy-focused AI experience, though with platform-specific optimizations.
+- question: "What stays on my device?"
+  answer: "When you use a local model, your prompts, attachments and conversation are processed on your device to generate the reply. Cloud models send the request through Enclave and OpenRouter to the serving model provider. Usage and diagnostic data are described in our [data guide](/how-enclave-uses-data/)."
 
-- question: What's the difference between iOS and macOS versions?
-  answer: Both versions now allow you to choose and download from a selection of AI models. The macOS version supports larger models due to greater computing power, while the iOS version offers models specifically optimized for mobile performance. Both versions maintain the same commitment to privacy and offline processing.
+- question: "Which devices can I use?"
+  answer: "Enclave is available for iPhone, iPad and Mac. The models you can run depend on available memory and storage. Check the App Store for current device and operating-system compatibility."
 
-- question: Do I need an internet connection?
-  answer: You only need internet for the initial download of the app and, on macOS, for downloading additional AI models. After that, everything works completely offline! This means you can use the app anywhere, anytime - whether you're on a plane, in a remote location, or simply prefer to work without an internet connection for enhanced privacy.
+- question: "Can I use Enclave for free?"
+  answer: "Yes. Local AI is free to use. An optional Pro subscription adds access to cloud models with a monthly credit allowance. See [pricing](/pricing/) for details; regional prices and subscription terms are shown in the app."
 
-- question: How does offline AI work? Do I need internet connection?
-  answer: No internet connection is required. The app downloads the AI model once during installation, and afterwards everything runs completely offline on your device. All processing, including voice recognition and text generation, happens locally without any data leaving your device.
+- question: "Can I talk to Enclave or use it in Shortcuts?"
+  answer: "Yes. Enclave supports voice conversations, custom assistants and Shortcuts integration. Choose a local model for on-device responses; cloud models require an internet connection and remote processing."
 
-- question: What kind of AI models does the app support?
-  answer: Both iOS and macOS versions support various open-source large language models. On iOS, you can choose from models like Llama, Qwen, SmolLM, and Gemma - all optimized for mobile performance. The macOS version additionally supports larger models that take advantage of desktop computing power. All models are carefully optimized for their respective platforms to ensure smooth performance.
+- question: "How do I choose a model?"
+  answer: "Start with a smaller local model that fits your device. Larger models need more memory and storage, and performance varies by hardware. You can explore different local models or choose an optional cloud model for a different task."
 
-- question: Is my conversation data private?
-  answer: Absolutely. Unlike cloud-based AI services, all your conversations stay on your device. Your conversation history is stored locally and encrypted, giving you complete control over your data. We don't collect any data, require no account registration, and have no servers to store your information. Your privacy is guaranteed by design, not just by policy.
+- question: "Can I return to earlier conversations?"
+  answer: "Yes. Your conversation history is stored on your device. Open a previous conversation to continue it, search your history, or remove conversations you no longer need. Enclave does not keep a server-side copy of that history."
 
-- question: How does the conversation history feature work?
-  answer: Enclave AI now automatically saves your conversations locally on your device, allowing you to access, review, and continue previous chats. Your conversation history is stored securely using encrypted local storage and never leaves your device. You have complete control over your data, with options to delete individual conversations, clear all history, export conversations, and even set automatic deletion periods. The feature is designed to enhance productivity while maintaining our strict privacy standards.
+- question: "What is different on iPhone, iPad and Mac?"
+  answer: "All three offer local AI conversations, model selection and custom assistants, with interfaces adapted to the platform. The local models you can run depend on your device’s available memory and storage. A Mac with more memory can run larger models than a less capable device."
 
-- question: How does voice chat work without internet?
-  answer: We use Apple's on-device speech recognition and synthesis capabilities, combined with local AI models. This means your voice never leaves your device - everything from speech-to-text, AI processing, and text-to-speech happens locally.
+- question: "What happens when I attach a document?"
+  answer: "Enclave extracts text from supported PDF and text files on your device. You can then ask questions or request a summary. With a local model, that context is processed on your device; with a cloud model, relevant extracted text can be included in the remote request."
 
-- question: Can I use the AI features in my Shortcuts automation?
-  answer: Yes! The app fully integrates with Apple Shortcuts on both iOS and macOS, allowing you to include AI capabilities in your automation workflows. You can now select specific AI models for each shortcut - choosing between local models for complete privacy or cloud models for enhanced capabilities. This gives you unprecedented control over your AI-powered automations, letting you create sophisticated workflows for tasks like email processing, document analysis, content creation, and more - all while maintaining the appropriate level of privacy for each task.
-
-- question: What's the difference between this and ChatGPT?
-  answer: While ChatGPT processes everything in the cloud, our app runs AI models directly on your device. This means you maintain complete privacy, have no recurring subscription costs, and can use the AI features even without internet access. On macOS, you can even choose larger models that offer capabilities closer to cloud-based services.
-
-- question: Will the app drain my battery?
-  answer: The app is optimized to use Apple's Neural Engine efficiently on both platforms. On iOS, you can choose from several specially optimized models that balance capabilities with power consumption. On macOS, you have additional options for larger models. All models are optimized to make efficient use of your device's resources.
-
-- question: How does the document context feature work?
-  answer: The document context feature allows you to add PDF and text files directly into your chat conversations. When you add documents, they are processed entirely on your device - no cloud processing or internet connection required. You can then ask questions about the documents, request summaries, or analyze multiple documents together. Like all features in Enclave, document processing is completely private and offline, ensuring your sensitive documents never leave your device.
-
-- question: Can I run DeepSeek R1 on my device?
-  answer: Yes! Enclave supports running distilled versions of DeepSeek R1 on all supported devices - iOS, iPad and Mac. These optimized versions maintain impressive capabilities while being specifically tuned for each platform's performance characteristics.
-
-- question: What is the OpenRouter integration?
-  answer: The OpenRouter integration gives you the flexibility to choose between local AI models and cloud-based models. While Enclave remains primarily focused on private, local AI processing, the OpenRouter integration allows you to optionally access powerful cloud-based models when you need additional capabilities. You can seamlessly switch between local and cloud processing through the same interface, with clear indications of when data leaves your device. Local processing remains the default, and cloud processing is completely optional, putting you in full control of your privacy and data.
-
-- question: How does model selection in Shortcuts work?
-  answer: Our enhanced Shortcuts integration now allows you to specify exactly which AI model to use for each automation. When creating a shortcut with Enclave AI actions, you'll see a "Model" parameter where you can select from available local models (for complete privacy) or cloud models (for enhanced capabilities). This gives you the flexibility to create different shortcuts for different use cases, each with the ideal model for the task. The feature is available on both iOS and macOS, allowing you to build consistent automation experiences across all your Apple devices.
+- question: "Which model is used in a Shortcut?"
+  answer: "Enclave’s Shortcuts integration lets you select a model for the task. Choose a local model for on-device responses, or a cloud model when you want remote processing. Cloud models need an internet connection."

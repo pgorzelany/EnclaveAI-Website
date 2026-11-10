@@ -1,0 +1,27 @@
+- name: "Local"
+  label: "Free to use"
+  price: "$0"
+  period: "/ month"
+  description: "Everyday AI that runs on your device. Download a local model and take the conversation offline."
+  features:
+    - "Local AI models"
+    - "On-device voice conversations"
+    - "Custom AI assistants"
+    - "Chat with PDF and text files"
+    - "Shortcuts & Siri integration"
+  button: "Download free"
+  pro: false
+
+- name: "Pro"
+  label: "Optional cloud access"
+  price: "$9.99"
+  period: "/ month · USD"
+  description: "Keep everything in Local and add cloud models when you want more choice."
+  features:
+    - "Everything in Local"
+    - "Access to supported cloud models"
+    - "$9.99 in monthly cloud credits"
+    - "No separate model-provider account needed"
+    - "Subscription managed by Apple"
+  button: "Explore Pro in the app"
+  pro: true

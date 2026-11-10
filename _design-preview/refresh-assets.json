@@ -1,0 +1,47 @@
+{
+  "source": "Enclave-AppStoreMetadata/screenshots/output/manifest.json",
+  "generatedAt": "2026-09-17T15:40:19.121Z",
+  "note": "Native snapshot fixtures with sample content. WebP exports preserve the app UI. CSS supplies the presentation frames.",
+  "images": [
+    {
+      "file": "iphone-chat.webp",
+      "source": "raw/iphone/en-US/private-chat.png",
+      "sourceSHA256": "1cc3d0593677ef47295b2e941d9a9637c01e83a27dea826154b9c37856988c56",
+      "capturedAt": "20260917-155220",
+      "revision": "c1952b75f0c2e57f01d47b774c5448b5514d71d6",
+      "workingTreeSHA256": "86b5511b57390a1ebb99dddae70d25056a490e568c7b300c746c2608132d18f1"
+    },
+    {
+      "file": "iphone-documents.webp",
+      "source": "raw/iphone/en-US/documents.png",
+      "sourceSHA256": "6b71ad02aac61ad8a6b42dbb57e3dd4587ac44ac04b1fd1913326a78795ca590",
+      "capturedAt": "20260917-155220",
+      "revision": "c1952b75f0c2e57f01d47b774c5448b5514d71d6",
+      "workingTreeSHA256": "86b5511b57390a1ebb99dddae70d25056a490e568c7b300c746c2608132d18f1"
+    },
+    {
+      "file": "iphone-assistants.webp",
+      "source": "raw/iphone/en-US/assistants.png",
+      "sourceSHA256": "c8b22386f4b1b45194e4228efe59b356cbb13b39ec100c1e41b61e6b07ec6a6c",
+      "capturedAt": "20260917-155220",
+      "revision": "c1952b75f0c2e57f01d47b774c5448b5514d71d6",
+      "workingTreeSHA256": "86b5511b57390a1ebb99dddae70d25056a490e568c7b300c746c2608132d18f1"
+    },
+    {
+      "file": "iphone-models.webp",
+      "source": "raw/iphone/en-US/local-models.png",
+      "sourceSHA256": "832704da5e60abb1c985f1bbc5aad3fe77acd5868198dcfa6fd93e057ac5ef27",
+      "capturedAt": "20260917-155220",
+      "revision": "c1952b75f0c2e57f01d47b774c5448b5514d71d6",
+      "workingTreeSHA256": "86b5511b57390a1ebb99dddae70d25056a490e568c7b300c746c2608132d18f1"
+    },
+    {
+      "file": "mac-chat.webp",
+      "source": "raw/mac/en-US/private-chat.png",
+      "sourceSHA256": "48d323d6120f20467e7a7bbeaae84bccc223094a72eeba7deb4c3cbc1aa44a4a",
+      "capturedAt": "20260917-132736",
+      "revision": "0b98885a08c10cbb5664af8874ad7261a2cc093a",
+      "workingTreeSHA256": "86b5511b57390a1ebb99dddae70d25056a490e568c7b300c746c2608132d18f1"
+    }
+  ]
+}

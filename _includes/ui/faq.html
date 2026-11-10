@@ -1,0 +1,8 @@
+<div class="faq-list">
+    {% for faq in include.items %}
+    <details class="faq-item">
+        <summary>{{ faq.question }}<span class="faq-indicator" aria-hidden="true">+</span></summary>
+        <div class="faq-answer">{{ faq.answer | markdownify }}</div>
+    </details>
+    {% endfor %}
+</div>

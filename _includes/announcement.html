@@ -1,7 +1,3 @@
 {% if site.announcement and site.announcement.enabled %}
-<div id="site-announcement" class="w-full bg-black text-red-500 text-center py-2 px-4">
-    <div class="max-w-6xl mx-auto">
-        <span class="text-sm md:text-base">{{ site.announcement.text }}</span>
-    </div>
-</div>
+<div class="announcement" role="status"><div class="container-site">{{ site.announcement.text }}</div></div>
 {% endif %}

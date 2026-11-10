@@ -1,7 +1,7 @@
-title: "Enclave AI - Private, Local, Offline AI Assistant for MacOS and iOS"
+title: "Enclave AI"
 short_title: "Enclave AI"
 email: "enclave-support@agentmail.to"
-description: "Privacy-focused AI chatbot for iOS and macOS that runs completely offline. Local LLM processing, secure conversations, and voice chat - all without internet. Your private AI assistant for iPhone, iPad, and Mac."
+description: "Private AI for iPhone, iPad and Mac. Chat, write and explore with local models that work offline, and choose optional cloud models when you need them."
 baseurl: ""
 url: "https://enclaveai.app"
 
@@ -45,6 +45,8 @@ exclude:
   - package.json
   - package-lock.json
   - tailwind.config.js
+  - agent-guides/rules/design-system.md
+  - _design-preview
 
 # Collections
 collections:
@@ -64,9 +66,6 @@ defaults:
       type: "pages"
     values:
       layout: "default" 
-
-# Add this with your other URLs
-discord_url: "https://discord.gg/NX85YuXrf3" 
 
 # Site-wide announcement banner
 announcement:

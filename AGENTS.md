@@ -4,6 +4,7 @@ If this checkout is inside the EnclaveCode workspace, also read `../AGENTS.md`.
 
 Before changing the website, read:
 - `agent-guides/rules/tailwind-css.md`
+- `agent-guides/rules/design-system.md`
 
 When writing or editing blog posts, also read:
 - `agent-guides/rules/blog-posts.md`

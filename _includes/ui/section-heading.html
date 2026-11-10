@@ -1,0 +1,5 @@
+<div class="section-heading{% if include.centered %} section-heading--centered{% endif %}">
+    {% if include.eyebrow %}<p class="eyebrow">{{ include.eyebrow }}</p>{% endif %}
+    <h2 class="heading-section"{% if include.id %} id="{{ include.id }}"{% endif %}>{{ include.title }}</h2>
+    {% if include.description %}<p class="text-intro">{{ include.description }}</p>{% endif %}
+</div>

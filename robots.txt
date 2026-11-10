@@ -1,4 +1,6 @@
 ---
+layout: null
+sitemap: false
 ---
 # Welcome to Enclave AI
 User-agent: *

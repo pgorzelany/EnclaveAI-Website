@@ -1,104 +1,29 @@
-<nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100 transition-all duration-200">
+<header class="site-header" data-site-header>
     {% include announcement.html %}
-    <div class="max-w-6xl mx-auto px-4">
-        <div class="flex items-center justify-between py-6">
-            <div class="flex items-center">
-                <a href="/" class="flex items-center space-x-2">
-                    <img src="{{ site.baseurl }}/assets/images/enclave-icon.webp" alt="Enclave AI Logo" class="h-8 w-8 rounded-lg">
-                    <span class="text-2xl font-bold">{{ site.short_title }}</span>
-                </a>
-            </div>
-            
-            <!-- Desktop menu -->
-            <div class="hidden md:flex items-center justify-between flex-1 pl-8">
-                <div class="flex items-center space-x-8 mx-auto">
-                    <a href="/" class="hover:underline">Home</a>
-                    <a href="{{ site.baseurl }}/blog" class="hover:underline">Blog</a>
-                    <a href="{{ site.baseurl }}/pricing" class="hover:underline">Pricing</a>
-                    <a href="{% if page.url != '/' %}{{ site.baseurl }}/{% endif %}#features" class="hover:underline">Features</a>
-                    <a href="{% if page.url != '/' %}{{ site.baseurl }}/{% endif %}#reviews" class="hover:underline">Reviews</a>
-                    <a href="{% if page.url != '/' %}{{ site.baseurl }}/{% endif %}#faq" class="hover:underline">FAQ</a>
-                    <a href="{% if page.url != '/' %}{{ site.baseurl }}/{% endif %}#contact" class="hover:underline">Contact</a>
-                </div>
-                <div>
-                    <a href="{{ site.app_store_url }}" 
-                       class="bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition duration-200">
-                        Download
-                    </a>
-                </div>
-            </div>
-
-            <!-- Mobile menu button -->
-            <button id="mobile-menu-toggle" type="button" class="md:hidden flex items-center px-3 py-2 z-50" aria-label="Toggle menu" aria-controls="mobile-menu" aria-expanded="false" onclick="toggleMobileMenu(this)">
-                <!-- Menu Icon -->
-                <svg class="menu-icon w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                </svg>
-                <!-- Close Icon (hidden by default) -->
-                <svg class="close-icon w-8 h-8 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                </svg>
+    <div class="container-site navigation-row">
+        <a href="{{ '/' | relative_url }}" class="brand" aria-label="Enclave AI home">
+            <img src="{{ '/assets/images/enclave-icon.webp' | relative_url }}" alt="" width="36" height="36">
+            <span>{{ site.short_title }}</span>
+        </a>
+        <nav class="desktop-navigation" aria-label="Main navigation">
+            <a href="{{ '/' | relative_url }}#features">Features</a>
+            <a href="{{ '/pricing/' | relative_url }}"{% if page.url == '/pricing/' %} aria-current="page"{% endif %}>Pricing</a>
+            <a href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog/' %} aria-current="page"{% endif %}>Blog</a>
+            <a href="{{ '/' | relative_url }}#faq">FAQ</a>
+        </nav>
+        <div class="navigation-actions">
+            {% include ui/button.html href=site.app_store_url label="Download" class="navigation-download" %}
+            {% include ui/theme-toggle.html %}
+            <button type="button" class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-navigation" data-menu-toggle>
+                <span data-menu-label>Menu</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg>
             </button>
         </div>
-
-        <!-- Mobile menu with slide and fade animations -->
-        <div id="mobile-menu" class="hidden md:hidden fixed inset-x-0 {% if site.announcement and site.announcement.enabled %}top-[96px]{% else %}top-[80px]{% endif %} bottom-0 bg-white z-40 transform transition-all duration-300 ease-out opacity-0">
-            <div class="flex flex-col space-y-8 items-center pt-12">
-                <a href="/" class="text-2xl hover:underline transform transition-transform hover:translate-x-2">Home</a>
-                <a href="{{ site.baseurl }}/blog" class="text-2xl hover:underline transform transition-transform hover:translate-x-2">Blog</a>
-                <a href="{{ site.baseurl }}/pricing" class="text-2xl hover:underline transform transition-transform hover:translate-x-2">Pricing</a>
-                <a href="{% if page.url != '/' %}{{ site.baseurl }}/{% endif %}#features" class="text-2xl hover:underline transform transition-transform hover:translate-x-2">Features</a>
-                <a href="{% if page.url != '/' %}{{ site.baseurl }}/{% endif %}#reviews" class="text-2xl hover:underline transform transition-transform hover:translate-x-2">Reviews</a>
-                <a href="{% if page.url != '/' %}{{ site.baseurl }}/{% endif %}#faq" class="text-2xl hover:underline transform transition-transform hover:translate-x-2">FAQ</a>
-                <a href="{% if page.url != '/' %}{{ site.baseurl }}/{% endif %}#contact" class="text-2xl hover:underline transform transition-transform hover:translate-x-2">Contact</a>
-                <a href="{{ site.app_store_url }}" 
-                   class="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition duration-200 text-center text-2xl">
-                    Download
-                </a>
-            </div>
-        </div>
     </div>
-</nav>
-
-<!-- Spacer to prevent content from hiding under fixed nav (accounts for announcement when enabled) -->
-<div class="{% if site.announcement and site.announcement.enabled %}h-24{% else %}h-20{% endif %}"></div>
-
-<!-- Updated JavaScript with animations -->
-<script>
-    function toggleMobileMenu(button) {
-        const mobileMenu = document.getElementById('mobile-menu');
-        const menuIcon = button.querySelector('.menu-icon');
-        const closeIcon = button.querySelector('.close-icon');
-        const isOpen = !mobileMenu.classList.contains('hidden');
-        
-        if (isOpen) {
-            // Close menu
-            mobileMenu.classList.add('opacity-0');
-            menuIcon.classList.remove('hidden');
-            closeIcon.classList.add('hidden');
-            button.setAttribute('aria-expanded', 'false');
-            setTimeout(() => {
-                mobileMenu.classList.add('hidden');
-            }, 200);
-        } else {
-            // Open menu
-            mobileMenu.classList.remove('hidden');
-            menuIcon.classList.add('hidden');
-            closeIcon.classList.remove('hidden');
-            button.setAttribute('aria-expanded', 'true');
-            setTimeout(() => {
-                mobileMenu.classList.remove('opacity-0');
-            }, 10);
-        }
-    }
-
-    // Close mobile menu when clicking on a link
-    document.querySelectorAll('#mobile-menu a').forEach(link => {
-        link.addEventListener('click', () => {
-            const button = document.getElementById('mobile-menu-toggle');
-            if (button) {
-                toggleMobileMenu(button);
-            }
-        });
-    });
-</script> 
+    <nav class="mobile-navigation container-site" id="mobile-navigation" aria-label="Mobile navigation" hidden>
+        <a href="{{ '/' | relative_url }}#features">Features</a>
+        <a href="{{ '/pricing/' | relative_url }}">Pricing</a>
+        <a href="{{ '/blog/' | relative_url }}">Blog</a>
+        <a href="{{ '/' | relative_url }}#faq">FAQ</a>
+        {% include ui/button.html href=site.app_store_url label="Download Enclave" %}
+    </nav>
+</header>
